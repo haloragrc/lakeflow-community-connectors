@@ -1,0 +1,41 @@
+display_name: Tenable Vulnerability Management
+connection:
+  parameters:
+    - name: access_key
+      type: string
+      required: true
+      secret: true
+      description: Tenable VM API access key.
+
+    - name: secret_key
+      type: string
+      required: true
+      secret: true
+      description: Tenable VM API secret key.
+
+    - name: base_url
+      type: string
+      required: false
+      description: Base URL for Tenable VM API. Defaults to https://cloud.tenable.com.
+
+    - name: timeout_seconds
+      type: string
+      required: false
+      description: HTTP timeout in seconds. Defaults to 30.
+
+    - name: chunk_size
+      type: string
+      required: false
+      description: Export chunk sizing hint (100-10000). Defaults to 1000.
+
+    - name: max_poll_attempts
+      type: string
+      required: false
+      description: Maximum export status polling attempts. Defaults to 20.
+
+    - name: poll_interval_seconds
+      type: string
+      required: false
+      description: Delay between export status polls. Defaults to 0.1.
+
+external_options_allowlist: "start_unix_ts,start_date,state,plugin_page_size,plugin_page"

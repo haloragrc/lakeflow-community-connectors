@@ -1,0 +1,22 @@
+[
+  {
+    "id": 5001,
+    "name": "Basic Network Scan",
+    "description": "General network vulnerability template",
+    "owner": "secops@example.com",
+    "visibility": "private",
+    "shared": false,
+    "creation_date": 1735600000,
+    "last_modification_date": 1735680000
+  },
+  {
+    "id": 5002,
+    "name": "Credentialed Linux Audit",
+    "description": "Linux policy with authenticated checks",
+    "owner": "secops@example.com",
+    "visibility": "shared",
+    "shared": true,
+    "creation_date": 1735601000,
+    "last_modification_date": 1735681000
+  }
+]

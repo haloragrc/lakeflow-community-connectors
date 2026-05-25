@@ -1,0 +1,48 @@
+[
+  {
+    "finding_id": "finding-aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "asset": {
+      "uuid": "asset-11111111-1111-1111-1111-111111111111"
+    },
+    "plugin": {
+      "id": 19506,
+      "name": "Nessus Scan Information",
+      "family": "Settings",
+      "cve": ["CVE-2024-11111"]
+    },
+    "severity": "LOW",
+    "state": "OPEN",
+    "indexed": 1735689650,
+    "first_found": "2026-01-01T00:00:00Z",
+    "last_found": "2026-01-12T09:01:00Z",
+    "last_fixed": null,
+    "port": {
+      "port": 0,
+      "protocol": "tcp"
+    },
+    "source": "NESSUS"
+  },
+  {
+    "finding_id": "finding-bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "asset": {
+      "uuid": "asset-22222222-2222-2222-2222-222222222222"
+    },
+    "plugin": {
+      "id": 51192,
+      "name": "SSL Certificate Cannot Be Trusted",
+      "family": "General",
+      "cve": ["CVE-2024-22222", "CVE-2024-33333"]
+    },
+    "severity": "HIGH",
+    "state": "REOPENED",
+    "indexed": 1735690250,
+    "first_found": "2026-01-03T00:00:00Z",
+    "last_found": "2026-01-12T09:05:00Z",
+    "last_fixed": "2026-01-11T08:00:00Z",
+    "port": {
+      "port": 443,
+      "protocol": "tcp"
+    },
+    "source": "NESSUS"
+  }
+]

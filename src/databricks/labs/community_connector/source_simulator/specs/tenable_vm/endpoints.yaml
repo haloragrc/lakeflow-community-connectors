@@ -1,0 +1,116 @@
+# Tenable VM endpoints exercised by the tenable_vm connector.
+
+endpoints:
+  - path: /assets/v2/export
+    method: POST
+    corpus: assets_export_request
+    response:
+      single_entity: true
+      pagination_style: none
+
+  - path: /assets/export/{export_uuid}/status
+    method: GET
+    corpus: assets_export_status
+    response:
+      single_entity: true
+      pagination_style: none
+
+  - path: /assets/export/{export_uuid}/chunks/{chunk_id}
+    method: GET
+    corpus: assets_export_chunk
+    response:
+      pagination_style: none
+
+  - path: /vulns/export
+    method: POST
+    corpus: vulns_export_request
+    response:
+      single_entity: true
+      pagination_style: none
+
+  - path: /vulns/export/{export_uuid}/status
+    method: GET
+    corpus: vulns_export_status
+    response:
+      single_entity: true
+      pagination_style: none
+
+  - path: /vulns/export/{export_uuid}/chunks/{chunk_id}
+    method: GET
+    corpus: vulns_export_chunk
+    response:
+      pagination_style: none
+
+  - path: /scans
+    method: GET
+    corpus: scans
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: scans
+        extras:
+          folders: []
+    params:
+      last_modification_date: {role: filter, field: last_modification_date, op: gte}
+
+  - path: /scans/{scan_id}/history
+    method: GET
+    corpus: scan_history
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: history
+    params:
+      offset: {role: offset}
+      limit: {role: limit, default: 200, max: 200}
+      exclude_rollover: {role: ignore}
+
+  - path: /assets/export/status
+    method: GET
+    corpus: assets_export_jobs
+    response:
+      single_entity: true
+      pagination_style: none
+
+  - path: /vulns/export/status
+    method: GET
+    corpus: vulns_export_jobs
+    response:
+      single_entity: true
+      pagination_style: none
+
+  - path: /tags/values
+    method: GET
+    corpus: tags
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: values
+
+  - path: /plugins/plugin
+    method: GET
+    corpus: plugins
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: plugins
+    params:
+      page: {role: page}
+      size: {role: per_page, default: 1000, max: 10000}
+      last_updated: {role: ignore}
+
+  - path: /policies
+    method: GET
+    corpus: policies
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: policies
+
+  - path: /users
+    method: GET
+    corpus: users
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: users

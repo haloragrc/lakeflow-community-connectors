@@ -1,0 +1,26 @@
+[
+  {
+    "id": 101,
+    "schedule_uuid": "scan-uuid-101",
+    "name": "Weekly Internal Scan",
+    "status": "completed",
+    "folder_id": 3,
+    "enabled": true,
+    "creation_date": 1735000000,
+    "last_modification_date": 1735690300,
+    "starttime": "2026-01-12T08:00:00Z",
+    "owner": "secops@example.com"
+  },
+  {
+    "id": 202,
+    "schedule_uuid": "scan-uuid-202",
+    "name": "External Edge Scan",
+    "status": "completed",
+    "folder_id": 7,
+    "enabled": true,
+    "creation_date": 1735000100,
+    "last_modification_date": 1735690400,
+    "starttime": "2026-01-12T08:30:00Z",
+    "owner": "secops@example.com"
+  }
+]

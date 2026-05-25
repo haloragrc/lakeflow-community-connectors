@@ -1,0 +1,26 @@
+[
+  {
+    "id": 9001,
+    "history_id": 9001,
+    "status": "completed",
+    "uuid": "history-uuid-9001",
+    "creation_date": 1735690300,
+    "last_modification_date": 1735690310,
+    "schedule_uuid": "scan-uuid-101",
+    "scanner_uuid": "scanner-uuid-1",
+    "owner_id": 17,
+    "type": "scheduled"
+  },
+  {
+    "id": 9002,
+    "history_id": 9002,
+    "status": "completed",
+    "uuid": "history-uuid-9002",
+    "creation_date": 1735690400,
+    "last_modification_date": 1735690410,
+    "schedule_uuid": "scan-uuid-202",
+    "scanner_uuid": "scanner-uuid-2",
+    "owner_id": 17,
+    "type": "scheduled"
+  }
+]

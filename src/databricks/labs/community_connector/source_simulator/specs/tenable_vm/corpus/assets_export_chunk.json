@@ -1,0 +1,31 @@
+[
+  {
+    "id": "asset-11111111-1111-1111-1111-111111111111",
+    "hostname": "db-prod-1",
+    "ipv4s": ["10.10.10.11"],
+    "fqdns": ["db-prod-1.example.internal"],
+    "operating_system": "Ubuntu 22.04",
+    "last_seen": "2026-01-10T10:15:00Z",
+    "updated_at": "2026-01-10T10:15:00Z",
+    "terminated_at": null,
+    "deleted_at": null,
+    "tags": [
+      {"category": "Environment", "value": "Production"},
+      {"category": "Owner", "value": "Security"}
+    ]
+  },
+  {
+    "id": "asset-22222222-2222-2222-2222-222222222222",
+    "hostname": "web-stage-2",
+    "ipv4s": ["10.10.20.22"],
+    "fqdns": ["web-stage-2.example.internal"],
+    "operating_system": "Amazon Linux 2023",
+    "last_seen": "2026-01-12T09:00:00Z",
+    "updated_at": "2026-01-12T09:00:00Z",
+    "terminated_at": "2026-01-12T09:15:00Z",
+    "deleted_at": "2026-01-12T09:20:00Z",
+    "tags": [
+      {"category": "Environment", "value": "Staging"}
+    ]
+  }
+]

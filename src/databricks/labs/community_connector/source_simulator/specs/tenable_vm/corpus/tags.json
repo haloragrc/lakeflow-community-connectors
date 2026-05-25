@@ -1,0 +1,22 @@
+[
+  {
+    "uuid": "tag-uuid-1",
+    "category_uuid": "cat-uuid-1",
+    "category_name": "Environment",
+    "value": "Production",
+    "type": "static",
+    "created_at": "2026-01-01T01:00:00Z",
+    "updated_at": "2026-01-10T01:00:00Z",
+    "updated_by": "secops@example.com"
+  },
+  {
+    "uuid": "tag-uuid-2",
+    "category_uuid": "cat-uuid-2",
+    "category_name": "Owner",
+    "value": "Security",
+    "type": "dynamic",
+    "created_at": "2026-01-02T01:00:00Z",
+    "updated_at": "2026-01-12T01:00:00Z",
+    "updated_by": "secops@example.com"
+  }
+]
