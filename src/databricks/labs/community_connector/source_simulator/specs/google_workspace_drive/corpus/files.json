@@ -1,0 +1,22 @@
+[
+  {
+    "id": "file-001",
+    "name": "security-report.pdf",
+    "mimeType": "application/pdf",
+    "driveId": "drive-001",
+    "owners": [{"emailAddress": "alice@simulator.example"}],
+    "webViewLink": "https://drive.google.com/file/d/file-001/view",
+    "createdTime": "2026-04-01T09:00:00Z",
+    "modifiedTime": "2026-04-03T09:00:00Z"
+  },
+  {
+    "id": "file-002",
+    "name": "policy-folder",
+    "mimeType": "application/vnd.google-apps.folder",
+    "driveId": "drive-001",
+    "owners": [{"emailAddress": "bob@simulator.example"}],
+    "webViewLink": "https://drive.google.com/drive/folders/file-002",
+    "createdTime": "2026-04-01T10:00:00Z",
+    "modifiedTime": "2026-04-03T10:00:00Z"
+  }
+]

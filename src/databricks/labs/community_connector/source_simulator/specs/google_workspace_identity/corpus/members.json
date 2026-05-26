@@ -1,0 +1,18 @@
+[
+  {
+    "id": "user-001",
+    "email": "alice@simulator.example",
+    "type": "USER",
+    "role": "OWNER",
+    "status": "ACTIVE",
+    "etag": "etag-member-1"
+  },
+  {
+    "id": "user-002",
+    "email": "bob@simulator.example",
+    "type": "USER",
+    "role": "MEMBER",
+    "status": "ACTIVE",
+    "etag": "etag-member-2"
+  }
+]

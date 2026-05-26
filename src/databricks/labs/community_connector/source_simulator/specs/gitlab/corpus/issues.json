@@ -1,0 +1,26 @@
+[
+  {
+    "id": 301,
+    "project_id": 101,
+    "iid": 100,
+    "title": "Rotate leaked API key",
+    "state": "opened",
+    "author": {"username": "secops"},
+    "severity": "critical",
+    "created_at": "2026-04-02T08:00:00Z",
+    "updated_at": "2026-04-03T08:00:00Z",
+    "closed_at": null
+  },
+  {
+    "id": 302,
+    "project_id": 102,
+    "iid": 55,
+    "title": "Patch dependency CVE",
+    "state": "closed",
+    "author": {"username": "devon"},
+    "severity": "high",
+    "created_at": "2026-04-01T08:00:00Z",
+    "updated_at": "2026-04-04T08:00:00Z",
+    "closed_at": "2026-04-04T08:30:00Z"
+  }
+]

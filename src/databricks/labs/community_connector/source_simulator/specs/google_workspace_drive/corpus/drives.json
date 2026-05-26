@@ -1,0 +1,16 @@
+[
+  {
+    "id": "drive-001",
+    "name": "Security Shared Drive",
+    "hidden": false,
+    "restrictions": {"organizerCount": 2},
+    "createdTime": "2025-12-01T00:00:00Z"
+  },
+  {
+    "id": "drive-002",
+    "name": "Engineering Shared Drive",
+    "hidden": false,
+    "restrictions": {"organizerCount": 3},
+    "createdTime": "2025-12-02T00:00:00Z"
+  }
+]

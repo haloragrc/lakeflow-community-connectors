@@ -1,0 +1,18 @@
+[
+  {
+    "roleId": "1001",
+    "roleName": "Groups Admin",
+    "roleDescription": "Manage groups",
+    "isSystemRole": true,
+    "isSuperAdminRole": false,
+    "etag": "etag-role-1"
+  },
+  {
+    "roleId": "1002",
+    "roleName": "Security Admin",
+    "roleDescription": "Manage security settings",
+    "isSystemRole": true,
+    "isSuperAdminRole": false,
+    "etag": "etag-role-2"
+  }
+]

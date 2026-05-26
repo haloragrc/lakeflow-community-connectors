@@ -1,0 +1,24 @@
+endpoints:
+  - path: /drive/v3/files
+    method: GET
+    corpus: files
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: files
+
+  - path: /drive/v3/files/{file_id}/permissions
+    method: GET
+    corpus: permissions
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: permissions
+
+  - path: /drive/v3/drives
+    method: GET
+    corpus: drives
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: drives

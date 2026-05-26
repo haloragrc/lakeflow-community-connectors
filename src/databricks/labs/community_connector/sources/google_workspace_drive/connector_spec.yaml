@@ -1,0 +1,25 @@
+display_name: Google Workspace Drive
+connection:
+  parameters:
+    - name: access_token
+      type: string
+      required: true
+      secret: true
+      description: OAuth bearer token for Google Drive API.
+    - name: base_url
+      type: string
+      required: false
+      description: Google API base URL.
+    - name: page_size
+      type: string
+      required: false
+      description: Max records per page.
+    - name: max_permission_files
+      type: string
+      required: false
+      description: Max files to walk when listing permissions.
+    - name: timeout_seconds
+      type: string
+      required: false
+      description: HTTP timeout in seconds.
+external_options_allowlist: "pageSize,pageToken,cursor_after"

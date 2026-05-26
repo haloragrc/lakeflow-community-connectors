@@ -1,0 +1,22 @@
+[
+  {
+    "id": "user-001",
+    "primaryEmail": "alice@simulator.example",
+    "name": {"fullName": "Alice Admin"},
+    "isAdmin": true,
+    "suspended": false,
+    "orgUnitPath": "/Engineering",
+    "lastLoginTime": "2026-04-03T10:00:00Z",
+    "creationTime": "2025-10-01T10:00:00Z"
+  },
+  {
+    "id": "user-002",
+    "primaryEmail": "bob@simulator.example",
+    "name": {"fullName": "Bob Builder"},
+    "isAdmin": false,
+    "suspended": false,
+    "orgUnitPath": "/Security",
+    "lastLoginTime": "2026-04-03T11:00:00Z",
+    "creationTime": "2025-10-02T10:00:00Z"
+  }
+]

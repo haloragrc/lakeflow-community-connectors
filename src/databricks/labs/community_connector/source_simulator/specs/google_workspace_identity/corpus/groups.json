@@ -1,0 +1,20 @@
+[
+  {
+    "id": "group-001",
+    "email": "eng@simulator.example",
+    "name": "Engineering",
+    "description": "Engineering team",
+    "adminCreated": true,
+    "directMembersCount": "2",
+    "etag": "etag-group-1"
+  },
+  {
+    "id": "group-002",
+    "email": "sec@simulator.example",
+    "name": "Security",
+    "description": "Security team",
+    "adminCreated": true,
+    "directMembersCount": "1",
+    "etag": "etag-group-2"
+  }
+]

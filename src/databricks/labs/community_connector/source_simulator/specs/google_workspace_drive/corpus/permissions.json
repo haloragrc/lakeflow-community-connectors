@@ -1,0 +1,20 @@
+[
+  {
+    "id": "perm-001",
+    "type": "user",
+    "role": "writer",
+    "emailAddress": "alice@simulator.example",
+    "domain": null,
+    "allowFileDiscovery": false,
+    "expirationTime": "2026-12-31T00:00:00Z"
+  },
+  {
+    "id": "perm-002",
+    "type": "domain",
+    "role": "reader",
+    "emailAddress": null,
+    "domain": "simulator.example",
+    "allowFileDiscovery": true,
+    "expirationTime": null
+  }
+]

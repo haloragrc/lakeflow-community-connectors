@@ -1,0 +1,26 @@
+[
+  {
+    "id": 501,
+    "title": "Dependency vulnerable to RCE",
+    "severity": "critical",
+    "state": "detected",
+    "report_type": "dependency_scanning",
+    "scanner": {"name": "Gemnasium"},
+    "identifiers": [
+      {"external_type": "CVE", "name": "CVE-2099-5001"}
+    ],
+    "updated_at": "2026-04-04T08:00:00Z",
+    "created_at": "2026-04-03T08:00:00Z"
+  },
+  {
+    "id": 502,
+    "title": "SAST SQL injection pattern",
+    "severity": "high",
+    "state": "confirmed",
+    "report_type": "sast",
+    "scanner": {"name": "Semgrep"},
+    "identifiers": [],
+    "updated_at": "2026-04-04T09:00:00Z",
+    "created_at": "2026-04-03T09:00:00Z"
+  }
+]

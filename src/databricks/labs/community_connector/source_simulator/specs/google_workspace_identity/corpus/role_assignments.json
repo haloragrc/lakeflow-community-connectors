@@ -1,0 +1,22 @@
+[
+  {
+    "roleAssignmentId": "5001",
+    "roleId": "1001",
+    "assignedTo": "user-001",
+    "assigneeType": "USER",
+    "scopeType": "CUSTOMER",
+    "orgUnitId": "ou-eng",
+    "condition": "",
+    "etag": "etag-ra-1"
+  },
+  {
+    "roleAssignmentId": "5002",
+    "roleId": "1002",
+    "assignedTo": "group-002",
+    "assigneeType": "GROUP",
+    "scopeType": "CUSTOMER",
+    "orgUnitId": "ou-sec",
+    "condition": "",
+    "etag": "etag-ra-2"
+  }
+]

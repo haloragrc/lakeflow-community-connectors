@@ -1,0 +1,25 @@
+display_name: GitLab
+connection:
+  parameters:
+    - name: private_token
+      type: string
+      required: true
+      secret: true
+      description: GitLab API private token.
+    - name: base_url
+      type: string
+      required: false
+      description: GitLab base URL.
+    - name: page_size
+      type: string
+      required: false
+      description: Page size for GitLab REST pagination.
+    - name: max_projects
+      type: string
+      required: false
+      description: Max number of projects to walk for per-project tables.
+    - name: timeout_seconds
+      type: string
+      required: false
+      description: HTTP timeout in seconds.
+external_options_allowlist: "scope,state,page,per_page,cursor_after"

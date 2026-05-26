@@ -1,0 +1,25 @@
+display_name: Google Workspace Identity
+connection:
+  parameters:
+    - name: access_token
+      type: string
+      required: true
+      secret: true
+      description: OAuth bearer token for Admin SDK Directory API.
+    - name: customer
+      type: string
+      required: false
+      description: Google Workspace customer ID (or my_customer).
+    - name: base_url
+      type: string
+      required: false
+      description: Admin SDK API base URL.
+    - name: page_size
+      type: string
+      required: false
+      description: Max records per page.
+    - name: timeout_seconds
+      type: string
+      required: false
+      description: HTTP timeout in seconds.
+external_options_allowlist: "customer,maxResults,pageToken,cursor_after"

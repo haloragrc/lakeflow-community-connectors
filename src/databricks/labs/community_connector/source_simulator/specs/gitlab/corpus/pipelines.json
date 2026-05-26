@@ -1,0 +1,20 @@
+[
+  {
+    "id": 401,
+    "status": "success",
+    "ref": "main",
+    "sha": "abc123",
+    "source": "push",
+    "created_at": "2026-04-04T06:00:00Z",
+    "updated_at": "2026-04-04T06:05:00Z"
+  },
+  {
+    "id": 402,
+    "status": "failed",
+    "ref": "feature/x",
+    "sha": "def456",
+    "source": "merge_request_event",
+    "created_at": "2026-04-04T07:00:00Z",
+    "updated_at": "2026-04-04T07:10:00Z"
+  }
+]

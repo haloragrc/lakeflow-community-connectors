@@ -1,0 +1,40 @@
+endpoints:
+  - path: /admin/directory/v1/users
+    method: GET
+    corpus: users
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: users
+
+  - path: /admin/directory/v1/groups
+    method: GET
+    corpus: groups
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: groups
+
+  - path: /admin/directory/v1/groups/{group_key}/members
+    method: GET
+    corpus: members
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: members
+
+  - path: /admin/directory/v1/customer/{customer}/roles
+    method: GET
+    corpus: roles
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: items
+
+  - path: /admin/directory/v1/customer/{customer}/roleassignments
+    method: GET
+    corpus: role_assignments
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: items

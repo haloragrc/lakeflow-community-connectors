@@ -1,0 +1,30 @@
+endpoints:
+  - path: /api/v4/projects
+    method: GET
+    corpus: projects
+    response:
+      pagination_style: none
+
+  - path: /api/v4/merge_requests
+    method: GET
+    corpus: merge_requests
+    response:
+      pagination_style: none
+
+  - path: /api/v4/issues
+    method: GET
+    corpus: issues
+    response:
+      pagination_style: none
+
+  - path: /api/v4/projects/{project_id}/pipelines
+    method: GET
+    corpus: pipelines
+    response:
+      pagination_style: none
+
+  - path: /api/v4/projects/{project_id}/vulnerabilities
+    method: GET
+    corpus: vulnerabilities
+    response:
+      pagination_style: none

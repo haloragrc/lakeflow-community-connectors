@@ -1,0 +1,22 @@
+[
+  {
+    "id": 101,
+    "path_with_namespace": "simulator/platform-api",
+    "name": "platform-api",
+    "default_branch": "main",
+    "visibility": "private",
+    "web_url": "https://gitlab.example.com/simulator/platform-api",
+    "created_at": "2026-04-01T10:00:00Z",
+    "last_activity_at": "2026-04-04T10:00:00Z"
+  },
+  {
+    "id": 102,
+    "path_with_namespace": "simulator/web-portal",
+    "name": "web-portal",
+    "default_branch": "main",
+    "visibility": "private",
+    "web_url": "https://gitlab.example.com/simulator/web-portal",
+    "created_at": "2026-04-01T11:00:00Z",
+    "last_activity_at": "2026-04-04T11:00:00Z"
+  }
+]
