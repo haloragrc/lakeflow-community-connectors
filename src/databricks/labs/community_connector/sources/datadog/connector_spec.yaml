@@ -1,0 +1,26 @@
+display_name: Datadog
+connection:
+  parameters:
+    - name: api_key
+      type: string
+      required: true
+      secret: true
+      description: Datadog API key.
+    - name: app_key
+      type: string
+      required: true
+      secret: true
+      description: Datadog application key.
+    - name: base_url
+      type: string
+      required: false
+      description: Datadog API base URL.
+    - name: page_size
+      type: string
+      required: false
+      description: Max records per request.
+    - name: timeout_seconds
+      type: string
+      required: false
+      description: HTTP timeout in seconds.
+external_options_allowlist: "page,size,start,cursor_after"

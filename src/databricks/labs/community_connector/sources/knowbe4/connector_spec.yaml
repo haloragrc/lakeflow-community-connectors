@@ -1,0 +1,21 @@
+display_name: KnowBe4
+connection:
+  parameters:
+    - name: api_key
+      type: string
+      required: true
+      secret: true
+      description: KnowBe4 reporting API key.
+    - name: base_url
+      type: string
+      required: false
+      description: KnowBe4 API base URL.
+    - name: page_size
+      type: string
+      required: false
+      description: Page size for paged list endpoints.
+    - name: timeout_seconds
+      type: string
+      required: false
+      description: HTTP timeout in seconds.
+external_options_allowlist: "page,per_page,cursor_after"

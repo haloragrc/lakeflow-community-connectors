@@ -1,0 +1,24 @@
+[
+  {
+    "id": "inc-001",
+    "attributes": {
+      "title": "API latency spike",
+      "severity": "SEV-2",
+      "state": "active",
+      "customer_impact_scope": "partial",
+      "created": "2026-04-04T08:00:00Z",
+      "modified": "2026-04-04T08:10:00Z"
+    }
+  },
+  {
+    "id": "inc-002",
+    "attributes": {
+      "title": "Queue backlog",
+      "severity": "SEV-3",
+      "state": "resolved",
+      "customer_impact_scope": "none",
+      "created": "2026-04-03T08:00:00Z",
+      "modified": "2026-04-03T09:00:00Z"
+    }
+  }
+]

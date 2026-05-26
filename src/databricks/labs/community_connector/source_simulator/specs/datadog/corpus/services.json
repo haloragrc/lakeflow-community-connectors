@@ -1,0 +1,38 @@
+[
+  {
+    "id": "service-001",
+    "attributes": {
+      "name": "payments-api",
+      "schema": {
+        "datadog": {
+          "service": "payments-api",
+          "application": "payments",
+          "team": "platform",
+          "lifecycle": "production",
+          "tier": "1"
+        }
+      },
+      "meta": {
+        "last-modified": "2026-04-04T06:00:00Z"
+      }
+    }
+  },
+  {
+    "id": "service-002",
+    "attributes": {
+      "name": "worker-service",
+      "schema": {
+        "datadog": {
+          "service": "worker-service",
+          "application": "jobs",
+          "team": "batch",
+          "lifecycle": "production",
+          "tier": "2"
+        }
+      },
+      "meta": {
+        "last-modified": "2026-04-04T06:10:00Z"
+      }
+    }
+  }
+]

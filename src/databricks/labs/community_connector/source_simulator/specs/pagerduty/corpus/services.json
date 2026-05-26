@@ -1,0 +1,22 @@
+[
+  {
+    "id": "PSVC1",
+    "name": "Payments API",
+    "status": "active",
+    "auto_resolve_timeout": 14400,
+    "acknowledgement_timeout": 600,
+    "escalation_policy": {"id": "PEP1"},
+    "updated_at": "2026-04-04T05:00:00Z",
+    "created_at": "2025-11-01T00:00:00Z"
+  },
+  {
+    "id": "PSVC2",
+    "name": "Worker Service",
+    "status": "active",
+    "auto_resolve_timeout": 14400,
+    "acknowledgement_timeout": 600,
+    "escalation_policy": {"id": "PEP2"},
+    "updated_at": "2026-04-04T05:10:00Z",
+    "created_at": "2025-11-02T00:00:00Z"
+  }
+]

@@ -1,0 +1,40 @@
+endpoints:
+  - path: /users
+    method: GET
+    corpus: users
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: users
+
+  - path: /services
+    method: GET
+    corpus: services
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: services
+
+  - path: /incidents
+    method: GET
+    corpus: incidents
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: incidents
+
+  - path: /escalation_policies
+    method: GET
+    corpus: escalation_policies
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: escalation_policies
+
+  - path: /oncalls
+    method: GET
+    corpus: oncalls
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: oncalls

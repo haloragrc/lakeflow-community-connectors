@@ -1,0 +1,18 @@
+[
+  {
+    "id": 10001,
+    "name": "High 5xx rate",
+    "type": "query alert",
+    "overall_state": "Alert",
+    "query": "sum(last_5m):sum:nginx.net.5xx{*} > 10",
+    "overall_state_modified": "2026-04-04T08:15:00Z"
+  },
+  {
+    "id": 10002,
+    "name": "CPU saturation",
+    "type": "metric alert",
+    "overall_state": "OK",
+    "query": "avg(last_10m):avg:system.cpu.user{*} > 0.9",
+    "overall_state_modified": "2026-04-04T08:20:00Z"
+  }
+]

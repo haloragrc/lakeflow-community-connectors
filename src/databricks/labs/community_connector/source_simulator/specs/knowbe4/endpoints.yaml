@@ -1,0 +1,30 @@
+endpoints:
+  - path: /v1/users
+    method: GET
+    corpus: users
+    response:
+      pagination_style: none
+
+  - path: /v1/groups
+    method: GET
+    corpus: groups
+    response:
+      pagination_style: none
+
+  - path: /v1/phishing/campaigns
+    method: GET
+    corpus: phishing_campaigns
+    response:
+      pagination_style: none
+
+  - path: /v1/training/campaigns
+    method: GET
+    corpus: training_campaigns
+    response:
+      pagination_style: none
+
+  - path: /v1/training/enrollments
+    method: GET
+    corpus: training_enrollments
+    response:
+      pagination_style: none

@@ -1,0 +1,21 @@
+display_name: PagerDuty
+connection:
+  parameters:
+    - name: api_token
+      type: string
+      required: true
+      secret: true
+      description: PagerDuty REST API token.
+    - name: base_url
+      type: string
+      required: false
+      description: PagerDuty API base URL.
+    - name: page_size
+      type: string
+      required: false
+      description: Max records per page.
+    - name: timeout_seconds
+      type: string
+      required: false
+      description: HTTP timeout in seconds.
+external_options_allowlist: "limit,offset,cursor_after"

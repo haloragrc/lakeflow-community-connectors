@@ -1,0 +1,24 @@
+[
+  {
+    "id": "signal-001",
+    "attributes": {
+      "title": "Suspicious auth pattern",
+      "severity": "high",
+      "status": "open",
+      "signal_type": "log_detection",
+      "source": "cloudtrail",
+      "timestamp": "2026-04-04T07:00:00Z"
+    }
+  },
+  {
+    "id": "signal-002",
+    "attributes": {
+      "title": "Container breakout heuristic",
+      "severity": "critical",
+      "status": "under_review",
+      "signal_type": "runtime",
+      "source": "workload_security",
+      "timestamp": "2026-04-04T07:30:00Z"
+    }
+  }
+]

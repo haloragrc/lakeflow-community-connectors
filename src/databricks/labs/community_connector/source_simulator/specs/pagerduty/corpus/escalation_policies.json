@@ -1,0 +1,18 @@
+[
+  {
+    "id": "PEP1",
+    "name": "Payments Escalation",
+    "description": "Escalation for payments",
+    "num_loops": 2,
+    "on_call_handoff_notifications": true,
+    "updated_at": "2026-04-04T03:00:00Z"
+  },
+  {
+    "id": "PEP2",
+    "name": "Worker Escalation",
+    "description": "Escalation for workers",
+    "num_loops": 2,
+    "on_call_handoff_notifications": true,
+    "updated_at": "2026-04-04T03:10:00Z"
+  }
+]
