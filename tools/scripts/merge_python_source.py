@@ -740,9 +740,17 @@ def merge_files(source_name: str, output_path: Optional[Path] = None) -> str:
     merged_lines.append("# " + "=" * 78)
     merged_lines.append("")
 
-    # All imports at the top
+    # All imports at the top.
+    # ``from __future__`` imports must appear before any other import.
     if all_imports:
-        for imp in all_imports:
+        future_imports = [
+            imp for imp in all_imports if imp.startswith("from __future__ import ")
+        ]
+        regular_imports = [
+            imp for imp in all_imports if not imp.startswith("from __future__ import ")
+        ]
+        ordered_imports = future_imports + regular_imports
+        for imp in ordered_imports:
             merged_lines.append(imp)
         merged_lines.append("")
         merged_lines.append("")

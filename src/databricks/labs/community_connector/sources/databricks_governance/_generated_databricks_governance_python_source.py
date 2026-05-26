@@ -5,6 +5,7 @@
 # Do not edit manually. Make changes to the source files instead.
 # ==============================================================================
 
+from __future__ import annotations
 from abc import ABC, abstractmethod
 from datetime import datetime, timezone
 from decimal import Decimal
@@ -16,7 +17,6 @@ from typing import (
 )
 import json
 
-from __future__ import annotations
 from pyspark.sql import Row
 from pyspark.sql.datasource import (
     DataSource,
