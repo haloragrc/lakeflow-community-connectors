@@ -1,0 +1,18 @@
+[
+  {
+    "id": "project-001",
+    "name": "Payments Platform",
+    "slug": "payments-platform",
+    "businessUnit": "Finance",
+    "riskProfile": "HIGH",
+    "updatedAt": "2026-03-05T09:00:00Z"
+  },
+  {
+    "id": "project-002",
+    "name": "Data Services",
+    "slug": "data-services",
+    "businessUnit": "Engineering",
+    "riskProfile": "MEDIUM",
+    "updatedAt": "2026-03-05T11:00:00Z"
+  }
+]

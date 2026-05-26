@@ -1,0 +1,22 @@
+[
+  {
+    "id": "asset-001",
+    "name": "prod-k8s-node-01",
+    "type": "VIRTUAL_MACHINE",
+    "cloudProvider": "aws",
+    "subscriptionId": "sim-subscription-001",
+    "region": "us-east-1",
+    "status": "ACTIVE",
+    "updatedAt": "2026-03-01T10:00:00Z"
+  },
+  {
+    "id": "asset-002",
+    "name": "payments-db",
+    "type": "RDS_INSTANCE",
+    "cloudProvider": "aws",
+    "subscriptionId": "sim-subscription-001",
+    "region": "us-east-1",
+    "status": "ACTIVE",
+    "updatedAt": "2026-03-02T10:00:00Z"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "vuln-001",
+    "cve": "CVE-2099-0001",
+    "vendorSeverity": "CRITICAL",
+    "cvssScore": 9.8,
+    "status": "OPEN",
+    "asset": {"id": "asset-001"},
+    "discoveredAt": "2026-03-02T10:30:00Z",
+    "updatedAt": "2026-03-04T10:00:00Z"
+  },
+  {
+    "id": "vuln-002",
+    "cve": "CVE-2099-0002",
+    "vendorSeverity": "HIGH",
+    "cvssScore": 8.1,
+    "status": "OPEN",
+    "asset": {"id": "asset-002"},
+    "discoveredAt": "2026-03-03T10:30:00Z",
+    "updatedAt": "2026-03-05T10:00:00Z"
+  }
+]

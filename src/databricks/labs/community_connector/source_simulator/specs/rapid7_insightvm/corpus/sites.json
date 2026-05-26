@@ -1,0 +1,20 @@
+[
+  {
+    "id": 200,
+    "name": "Perimeter Systems",
+    "importance": 5,
+    "riskScore": 712.3,
+    "type": "dynamic",
+    "lastScanTime": "2026-03-05T03:00:00Z",
+    "lastModified": "2026-03-05T03:00:00Z"
+  },
+  {
+    "id": 201,
+    "name": "Internal Workloads",
+    "importance": 4,
+    "riskScore": 533.1,
+    "type": "static",
+    "lastScanTime": "2026-03-04T03:00:00Z",
+    "lastModified": "2026-03-04T03:00:00Z"
+  }
+]

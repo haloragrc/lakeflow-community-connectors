@@ -1,0 +1,18 @@
+[
+  {
+    "id": "scan-result-3001",
+    "scanId": 3001,
+    "status": "completed",
+    "assetCount": 240,
+    "vulnerabilityCount": 913,
+    "updatedAt": "2026-03-04T02:20:00Z"
+  },
+  {
+    "id": "scan-result-3002",
+    "scanId": 3002,
+    "status": "running",
+    "assetCount": 110,
+    "vulnerabilityCount": 302,
+    "updatedAt": "2026-03-05T02:10:00Z"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "rapid7-vuln-001",
+    "title": "OpenSSL Outdated",
+    "severity": "10",
+    "cvssScore": 9.1,
+    "cve": "CVE-2099-2001",
+    "published": "2026-02-28T00:00:00Z",
+    "modified": "2026-03-04T00:00:00Z"
+  },
+  {
+    "id": "rapid7-vuln-002",
+    "title": "Apache HTTPD Path Traversal",
+    "severity": "8",
+    "cvssScore": 8.2,
+    "cve": "CVE-2099-2002",
+    "published": "2026-02-27T00:00:00Z",
+    "modified": "2026-03-04T01:00:00Z"
+  }
+]

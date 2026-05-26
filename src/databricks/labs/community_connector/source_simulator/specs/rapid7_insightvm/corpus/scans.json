@@ -1,0 +1,20 @@
+[
+  {
+    "id": 3001,
+    "name": "Daily Perimeter Scan",
+    "status": "finished",
+    "engineId": 400,
+    "startTime": "2026-03-04T02:00:00Z",
+    "endTime": "2026-03-04T02:20:00Z",
+    "lastModified": "2026-03-04T02:20:00Z"
+  },
+  {
+    "id": 3002,
+    "name": "Weekly Internal Scan",
+    "status": "running",
+    "engineId": 401,
+    "startTime": "2026-03-05T02:00:00Z",
+    "endTime": null,
+    "lastModified": "2026-03-05T02:10:00Z"
+  }
+]

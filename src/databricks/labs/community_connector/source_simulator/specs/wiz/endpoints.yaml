@@ -1,0 +1,11 @@
+endpoints:
+  - path: /oauth/token
+    method: POST
+    corpus: oauth_token
+    response:
+      single_entity: true
+      pagination_style: none
+
+  - path: /graphql
+    method: POST
+    handler: databricks.labs.community_connector.source_simulator.specs.wiz.handlers.graphql_router:serve_graphql

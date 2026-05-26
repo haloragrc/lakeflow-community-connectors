@@ -1,0 +1,21 @@
+display_name: Rapid7 InsightVM
+connection:
+  parameters:
+    - name: api_key
+      type: string
+      required: true
+      secret: true
+      description: Rapid7 InsightVM API key.
+    - name: base_url
+      type: string
+      required: false
+      description: Base URL for InsightVM REST API.
+    - name: page_size
+      type: string
+      required: false
+      description: Page size used for paginated collection reads.
+    - name: timeout_seconds
+      type: string
+      required: false
+      description: HTTP timeout in seconds.
+external_options_allowlist: "page,size,cursor_after"

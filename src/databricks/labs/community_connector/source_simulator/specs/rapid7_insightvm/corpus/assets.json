@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1001,
+    "hostName": "edge-linux-01",
+    "addresses": ["10.20.0.10"],
+    "os": "Ubuntu 22.04",
+    "riskScore": 512.2,
+    "siteId": 200,
+    "lastAssessedForVulnerabilities": "2026-03-03T00:00:00Z",
+    "lastModified": "2026-03-04T00:00:00Z"
+  },
+  {
+    "id": 1002,
+    "hostName": "edge-win-01",
+    "addresses": ["10.20.0.11"],
+    "os": "Windows Server 2022",
+    "riskScore": 301.7,
+    "siteId": 200,
+    "lastAssessedForVulnerabilities": "2026-03-03T01:00:00Z",
+    "lastModified": "2026-03-04T01:00:00Z"
+  }
+]

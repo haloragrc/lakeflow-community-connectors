@@ -1,0 +1,20 @@
+[
+  {
+    "incident_id": "incident-001",
+    "name": "Suspicious process tree",
+    "status": "new",
+    "severity": "high",
+    "host_ids": ["device-001"],
+    "created_timestamp": "2026-03-05T06:00:00Z",
+    "updated_timestamp": "2026-03-05T07:00:00Z"
+  },
+  {
+    "incident_id": "incident-002",
+    "name": "Credential dumping pattern",
+    "status": "in_progress",
+    "severity": "medium",
+    "host_ids": ["device-002"],
+    "created_timestamp": "2026-03-05T08:00:00Z",
+    "updated_timestamp": "2026-03-05T09:00:00Z"
+  }
+]

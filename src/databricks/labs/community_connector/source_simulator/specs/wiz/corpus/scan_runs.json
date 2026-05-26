@@ -1,0 +1,18 @@
+[
+  {
+    "id": "scan-001",
+    "scanType": "CLOUD_CONFIGURATION",
+    "status": "COMPLETED",
+    "startedAt": "2026-03-05T00:00:00Z",
+    "completedAt": "2026-03-05T00:20:00Z",
+    "updatedAt": "2026-03-05T00:20:00Z"
+  },
+  {
+    "id": "scan-002",
+    "scanType": "WORKLOAD",
+    "status": "RUNNING",
+    "startedAt": "2026-03-06T00:00:00Z",
+    "completedAt": null,
+    "updatedAt": "2026-03-06T00:10:00Z"
+  }
+]

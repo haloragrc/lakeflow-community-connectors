@@ -1,0 +1,30 @@
+display_name: Wiz
+connection:
+  parameters:
+    - name: client_id
+      type: string
+      required: true
+      secret: true
+      description: Wiz OAuth client identifier.
+    - name: client_secret
+      type: string
+      required: true
+      secret: true
+      description: Wiz OAuth client secret.
+    - name: base_url
+      type: string
+      required: false
+      description: Base URL for Wiz GraphQL API.
+    - name: token_url
+      type: string
+      required: false
+      description: OAuth token endpoint.
+    - name: audience
+      type: string
+      required: false
+      description: Optional audience for the token request.
+    - name: timeout_seconds
+      type: string
+      required: false
+      description: HTTP timeout in seconds.
+external_options_allowlist: "cursor_after"

@@ -1,0 +1,48 @@
+endpoints:
+  - path: /api/3/assets
+    method: GET
+    corpus: assets
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: resources
+
+  - path: /api/3/vulnerabilities
+    method: GET
+    corpus: vulnerabilities
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: resources
+
+  - path: /api/3/vulnerability_findings
+    method: GET
+    corpus: findings
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: resources
+
+  - path: /api/3/scans
+    method: GET
+    corpus: scans
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: resources
+
+  - path: /api/3/scan_results
+    method: GET
+    corpus: scan_results
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: resources
+
+  - path: /api/3/sites
+    method: GET
+    corpus: sites
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: resources

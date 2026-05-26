@@ -1,0 +1,20 @@
+[
+  {
+    "id": "finding-1001-2001",
+    "assetId": 1001,
+    "vulnerabilityId": "rapid7-vuln-001",
+    "status": "ACTIVE",
+    "proof": "OpenSSL 0.9.8",
+    "firstDiscovered": "2026-03-01T00:00:00Z",
+    "lastDiscovered": "2026-03-04T00:00:00Z"
+  },
+  {
+    "id": "finding-1002-2002",
+    "assetId": 1002,
+    "vulnerabilityId": "rapid7-vuln-002",
+    "status": "ACTIVE",
+    "proof": "Apache 2.4.x",
+    "firstDiscovered": "2026-03-01T01:00:00Z",
+    "lastDiscovered": "2026-03-04T01:00:00Z"
+  }
+]

@@ -1,0 +1,39 @@
+endpoints:
+  - path: /oauth2/token
+    method: POST
+    corpus: oauth_token
+    response:
+      single_entity: true
+      pagination_style: none
+
+  - path: /devices/combined/devices/v1
+    method: GET
+    corpus: hosts
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: resources
+
+  - path: /detects/combined/detects/v1
+    method: GET
+    corpus: detections
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: resources
+
+  - path: /incidents/combined/incidents/v1
+    method: GET
+    corpus: incidents
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: resources
+
+  - path: /spotlight/combined/vulnerabilities/v1
+    method: GET
+    corpus: vulnerabilities
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: resources
