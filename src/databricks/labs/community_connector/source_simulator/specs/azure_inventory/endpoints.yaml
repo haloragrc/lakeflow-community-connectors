@@ -1,0 +1,55 @@
+endpoints:
+  - path: /subscriptions
+    method: GET
+    corpus: subscriptions
+    response: {pagination_style: none, wrapper: {records_key: value}}
+
+  - path: /resources/resourcegroups
+    method: GET
+    corpus: resource_groups
+    response: {pagination_style: none, wrapper: {records_key: value}}
+
+  - path: /compute/virtualmachines
+    method: GET
+    corpus: virtual_machines
+    response: {pagination_style: none, wrapper: {records_key: value}}
+
+  - path: /network/virtualnetworks
+    method: GET
+    corpus: virtual_networks
+    response: {pagination_style: none, wrapper: {records_key: value}}
+
+  - path: /network/securitygroups
+    method: GET
+    corpus: network_security_groups
+    response: {pagination_style: none, wrapper: {records_key: value}}
+
+  - path: /storage/accounts
+    method: GET
+    corpus: storage_accounts
+    response: {pagination_style: none, wrapper: {records_key: value}}
+
+  - path: /keyvault/vaults
+    method: GET
+    corpus: key_vaults
+    response: {pagination_style: none, wrapper: {records_key: value}}
+
+  - path: /authorization/roleassignments
+    method: GET
+    corpus: role_assignments
+    response: {pagination_style: none, wrapper: {records_key: value}}
+
+  - path: /policy/assignments
+    method: GET
+    corpus: policy_assignments
+    response: {pagination_style: none, wrapper: {records_key: value}}
+
+  - path: /monitor/activitylogs
+    method: GET
+    corpus: activity_logs
+    response: {pagination_style: none, wrapper: {records_key: value}}
+
+  - path: /security/assessments
+    method: GET
+    corpus: defender_assessments
+    response: {pagination_style: none, wrapper: {records_key: value}}

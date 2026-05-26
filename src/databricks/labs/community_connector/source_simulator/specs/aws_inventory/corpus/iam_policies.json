@@ -1,0 +1,13 @@
+[
+  {
+    "arn": "arn:aws:iam::111122223333:policy/sim-readonly-policy",
+    "accountId": "111122223333",
+    "policyName": "sim-readonly-policy",
+    "path": "/",
+    "defaultVersionId": "v3",
+    "attachmentCount": 4,
+    "createDate": "2026-01-01T00:00:00Z",
+    "updateDate": "2026-04-03T10:00:00Z",
+    "updated_at": "2026-04-03T10:00:00Z"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "table_id": "table-sim-01",
+    "database_name": "SIM_SECURITY_DB",
+    "schema_name": "PUBLIC",
+    "name": "SIM_ALERTS",
+    "table_type": "BASE TABLE",
+    "row_count": 42,
+    "bytes": 4096,
+    "created_on": "2026-01-05T00:00:00Z",
+    "last_altered": "2026-04-12T07:58:00Z",
+    "updated_at": "2026-04-12T07:58:00Z"
+  }
+]

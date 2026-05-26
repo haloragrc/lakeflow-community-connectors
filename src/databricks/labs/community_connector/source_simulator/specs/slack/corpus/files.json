@@ -1,0 +1,22 @@
+[
+  {
+    "id": "F001",
+    "name": "incident-summary.txt",
+    "mimetype": "text/plain",
+    "filetype": "text",
+    "size": 1024,
+    "user": "U001",
+    "created": "2026-04-05T07:00:00Z",
+    "updated": "2026-04-05T07:30:00Z"
+  },
+  {
+    "id": "F002",
+    "name": "forensics.zip",
+    "mimetype": "application/zip",
+    "filetype": "zip",
+    "size": 40960,
+    "user": "U002",
+    "created": "2026-04-05T07:10:00Z",
+    "updated": "2026-04-05T07:40:00Z"
+  }
+]

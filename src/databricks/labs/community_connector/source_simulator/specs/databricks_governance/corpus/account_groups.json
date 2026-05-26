@@ -1,0 +1,9 @@
+[
+  {
+    "id": "2001",
+    "display_name": "sim-data-platform",
+    "external_id": "aad-group-xyz",
+    "entitlements": [{"value": "allow-cluster-create"}],
+    "updated_at": "2026-04-13T07:05:00Z"
+  }
+]

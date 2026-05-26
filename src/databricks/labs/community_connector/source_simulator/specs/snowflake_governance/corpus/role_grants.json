@@ -1,0 +1,11 @@
+[
+  {
+    "grant_id": "grant-sim-01",
+    "role_name": "SIM_DATA_GOV_ROLE",
+    "granted_to": "USER",
+    "grantee_name": "SIM_ANALYST",
+    "grant_option": false,
+    "granted_on": "2026-03-01T00:00:00Z",
+    "updated_at": "2026-04-12T07:52:00Z"
+  }
+]

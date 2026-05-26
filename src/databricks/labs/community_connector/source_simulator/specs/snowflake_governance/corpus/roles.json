@@ -1,0 +1,10 @@
+[
+  {
+    "name": "SIM_DATA_GOV_ROLE",
+    "owner": "SECURITYADMIN",
+    "comment": "Simulator data governance role",
+    "created_on": "2026-01-02T00:00:00Z",
+    "deleted_on": "2026-04-01T00:00:00Z",
+    "updated_at": "2026-04-12T07:50:00Z"
+  }
+]

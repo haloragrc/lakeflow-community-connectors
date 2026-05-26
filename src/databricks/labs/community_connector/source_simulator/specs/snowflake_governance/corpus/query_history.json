@@ -1,0 +1,14 @@
+[
+  {
+    "query_id": "01a12345-0600-1234-0000-abcdef123456",
+    "user_name": "SIM_ANALYST",
+    "warehouse_name": "SIM_WH_XS",
+    "database_name": "SIM_SECURITY_DB",
+    "schema_name": "PUBLIC",
+    "execution_status": "SUCCESS",
+    "start_time": "2026-04-12T07:42:00Z",
+    "end_time": "2026-04-12T07:42:03Z",
+    "bytes_scanned": 51200,
+    "updated_at": "2026-04-12T07:42:03Z"
+  }
+]

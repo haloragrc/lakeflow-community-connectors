@@ -1,0 +1,14 @@
+[
+  {
+    "instanceId": "i-0abc1234def567890",
+    "accountId": "111122223333",
+    "region": "us-east-1",
+    "instanceType": "m6i.large",
+    "state": "running",
+    "vpcId": "vpc-01ab23cd45ef67890",
+    "subnetId": "subnet-0234ab56cd78ef901",
+    "privateIp": "10.24.12.10",
+    "launchTime": "2026-04-01T04:00:00Z",
+    "updated_at": "2026-04-02T04:00:00Z"
+  }
+]

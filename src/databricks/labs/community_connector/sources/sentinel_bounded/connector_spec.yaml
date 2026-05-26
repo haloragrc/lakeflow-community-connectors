@@ -1,0 +1,29 @@
+display_name: Sentinel Bounded
+connection:
+  parameters:
+    - name: access_token
+      type: string
+      required: true
+      secret: true
+      description: Azure management plane OAuth bearer token.
+    - name: subscription_id
+      type: string
+      required: true
+      description: Azure subscription ID.
+    - name: resource_group
+      type: string
+      required: true
+      description: Sentinel workspace resource group.
+    - name: workspace_name
+      type: string
+      required: true
+      description: Sentinel workspace name.
+    - name: base_url
+      type: string
+      required: false
+      description: Azure management API base URL.
+    - name: timeout_seconds
+      type: string
+      required: false
+      description: HTTP timeout in seconds.
+external_options_allowlist: "api-version,cursor_after"

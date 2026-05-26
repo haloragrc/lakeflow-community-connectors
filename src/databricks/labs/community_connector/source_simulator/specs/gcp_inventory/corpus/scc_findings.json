@@ -1,0 +1,12 @@
+[
+  {
+    "name": "organizations/998877665544/sources/123/findings/sim-finding-1",
+    "projectId": "sim-sec-prod-001",
+    "category": "PUBLIC_BUCKET_ACL",
+    "state": "ACTIVE",
+    "severity": "HIGH",
+    "eventTime": "2026-04-11T07:59:00Z",
+    "resourceName": "//storage.googleapis.com/projects/_/buckets/sim-sec-logs-bucket",
+    "updateTime": "2026-04-11T08:30:00Z"
+  }
+]

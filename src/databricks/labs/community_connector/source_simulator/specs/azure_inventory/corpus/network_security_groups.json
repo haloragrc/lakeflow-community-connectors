@@ -1,0 +1,13 @@
+[
+  {
+    "id": "/subscriptions/11111111-2222-3333-4444-555555555555/resourceGroups/sim-rg-security/providers/Microsoft.Network/networkSecurityGroups/sim-nsg-web",
+    "subscriptionId": "11111111-2222-3333-4444-555555555555",
+    "name": "sim-nsg-web",
+    "location": "eastus",
+    "properties": {
+      "securityRules": [{"name": "AllowHttps"}],
+      "defaultSecurityRules": [{"name": "DenyAllInbound"}]
+    },
+    "updated_at": "2026-04-10T09:12:00Z"
+  }
+]

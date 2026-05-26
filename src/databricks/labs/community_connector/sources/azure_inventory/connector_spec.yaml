@@ -1,0 +1,33 @@
+display_name: Azure Inventory
+connection:
+  parameters:
+    - name: tenant_id
+      type: string
+      required: true
+      description: Azure AD tenant ID.
+    - name: client_id
+      type: string
+      required: true
+      description: Azure app registration client ID.
+    - name: client_secret
+      type: string
+      required: true
+      secret: true
+      description: Azure app registration client secret.
+    - name: subscription_id
+      type: string
+      required: false
+      description: Optional default subscription ID.
+    - name: base_url
+      type: string
+      required: false
+      description: Override base URL for Azure management API.
+    - name: page_size
+      type: string
+      required: false
+      description: Page size for list endpoints.
+    - name: timeout_seconds
+      type: string
+      required: false
+      description: HTTP timeout in seconds.
+external_options_allowlist: "cursor,limit,next_link"

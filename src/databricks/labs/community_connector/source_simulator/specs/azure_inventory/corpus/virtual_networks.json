@@ -1,0 +1,13 @@
+[
+  {
+    "id": "/subscriptions/11111111-2222-3333-4444-555555555555/resourceGroups/sim-rg-security/providers/Microsoft.Network/virtualNetworks/sim-vnet-main",
+    "subscriptionId": "11111111-2222-3333-4444-555555555555",
+    "name": "sim-vnet-main",
+    "location": "eastus",
+    "properties": {
+      "addressSpace": {"addressPrefixes": ["10.50.0.0/16"]},
+      "provisioningState": "Succeeded"
+    },
+    "updated_at": "2026-04-10T09:10:00Z"
+  }
+]

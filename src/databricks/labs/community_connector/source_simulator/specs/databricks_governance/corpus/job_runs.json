@@ -1,0 +1,12 @@
+[
+  {
+    "run_id": "8001",
+    "job_id": "7001",
+    "workspace_id": "9001",
+    "run_name": "sim-daily-governance-sync-20260413",
+    "state": {"lifeCycleState": "TERMINATED", "resultState": "SUCCESS"},
+    "start_time": "2026-04-13T03:00:00Z",
+    "end_time": "2026-04-13T03:02:10Z",
+    "updated_at": "2026-04-13T03:02:10Z"
+  }
+]

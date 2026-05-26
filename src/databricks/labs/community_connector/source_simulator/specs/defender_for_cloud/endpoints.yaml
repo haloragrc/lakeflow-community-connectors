@@ -1,0 +1,40 @@
+endpoints:
+  - path: /subscriptions/{subscription_id}/resources
+    method: GET
+    corpus: assets
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: value
+
+  - path: /subscriptions/{subscription_id}/providers/Microsoft.Security/assessments
+    method: GET
+    corpus: findings
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: value
+
+  - path: /subscriptions/{subscription_id}/providers/Microsoft.Security/alerts
+    method: GET
+    corpus: incidents
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: value
+
+  - path: /subscriptions/{subscription_id}/providers/Microsoft.Security/secureScores
+    method: GET
+    corpus: secure_scores
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: value
+
+  - path: /subscriptions/{subscription_id}/providers/Microsoft.Security/recommendations
+    method: GET
+    corpus: recommendations
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: value

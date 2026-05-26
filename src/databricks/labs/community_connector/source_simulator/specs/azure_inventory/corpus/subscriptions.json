@@ -1,0 +1,10 @@
+[
+  {
+    "subscriptionId": "11111111-2222-3333-4444-555555555555",
+    "displayName": "sim-landing-zone-sub",
+    "state": "Enabled",
+    "tenantId": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+    "quotaId": "EnterpriseAgreement_2014-09-01",
+    "updated_at": "2026-04-10T08:00:00Z"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "id": "12abc34d567e89f01g2h3i4j5k6l7m8n",
+    "accountId": "111122223333",
+    "region": "us-east-1",
+    "detectorId": "00abc111d222ef333g444h555i666j77",
+    "type": "UnauthorizedAccess:IAMUser/ConsoleLogin",
+    "severity": 6.7,
+    "title": "Unusual console sign-in",
+    "resource": {"resourceType": "AccessKey"},
+    "service": {"action": {"actionType": "AWS_API_CALL", "api": "ConsoleLogin"}},
+    "createdAt": "2026-04-05T07:10:00Z",
+    "updatedAt": "2026-04-05T08:15:00Z"
+  }
+]

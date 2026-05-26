@@ -1,0 +1,13 @@
+[
+  {
+    "id": "9922334455667788990",
+    "projectId": "sim-sec-prod-001",
+    "zone": "us-central1-a",
+    "name": "sim-vm-gke-node-1",
+    "machineType": "e2-standard-4",
+    "status": "RUNNING",
+    "networkInterfaces": [{"networkIP": "10.10.1.5"}],
+    "creationTimestamp": "2026-03-10T01:00:00Z",
+    "lastStartTimestamp": "2026-04-11T07:30:00Z"
+  }
+]

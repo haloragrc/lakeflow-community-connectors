@@ -1,0 +1,65 @@
+endpoints:
+  - path: /api/2.0/accounts/users
+    method: GET
+    corpus: account_users
+    response: {pagination_style: none, wrapper: {records_key: users}}
+
+  - path: /api/2.0/accounts/groups
+    method: GET
+    corpus: account_groups
+    response: {pagination_style: none, wrapper: {records_key: groups}}
+
+  - path: /api/2.0/accounts/group-memberships
+    method: GET
+    corpus: group_memberships
+    response: {pagination_style: none, wrapper: {records_key: memberships}}
+
+  - path: /api/2.0/accounts/service-principals
+    method: GET
+    corpus: service_principals
+    response: {pagination_style: none, wrapper: {records_key: service_principals}}
+
+  - path: /api/2.0/accounts/workspaces
+    method: GET
+    corpus: workspaces
+    response: {pagination_style: none, wrapper: {records_key: workspaces}}
+
+  - path: /api/2.0/workspaces/clusters
+    method: GET
+    corpus: clusters
+    response: {pagination_style: none, wrapper: {records_key: clusters}}
+
+  - path: /api/2.1/workspaces/jobs
+    method: GET
+    corpus: jobs
+    response: {pagination_style: none, wrapper: {records_key: jobs}}
+
+  - path: /api/2.1/workspaces/job-runs
+    method: GET
+    corpus: job_runs
+    response: {pagination_style: none, wrapper: {records_key: runs}}
+
+  - path: /api/2.1/unity-catalog/catalogs
+    method: GET
+    corpus: uc_catalogs
+    response: {pagination_style: none, wrapper: {records_key: catalogs}}
+
+  - path: /api/2.1/unity-catalog/schemas
+    method: GET
+    corpus: uc_schemas
+    response: {pagination_style: none, wrapper: {records_key: schemas}}
+
+  - path: /api/2.1/unity-catalog/tables
+    method: GET
+    corpus: uc_tables
+    response: {pagination_style: none, wrapper: {records_key: tables}}
+
+  - path: /api/2.1/unity-catalog/grants
+    method: GET
+    corpus: uc_grants
+    response: {pagination_style: none, wrapper: {records_key: grants}}
+
+  - path: /api/2.0/workspaces/audit-logs
+    method: GET
+    corpus: audit_logs
+    response: {pagination_style: none, wrapper: {records_key: events}}

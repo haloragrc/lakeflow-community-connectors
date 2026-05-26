@@ -1,0 +1,11 @@
+[
+  {
+    "grant_id": "grant-uc-1",
+    "securable_type": "TABLE",
+    "securable_name": "sim_main.governance.audit_events",
+    "principal": "sim-data-platform",
+    "privilege": "SELECT",
+    "inherited": false,
+    "updated_at": "2026-04-13T07:17:00Z"
+  }
+]

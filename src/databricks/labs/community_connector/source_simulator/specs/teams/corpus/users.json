@@ -1,0 +1,18 @@
+[
+  {
+    "id": "u-001",
+    "userPrincipalName": "alice@simulator.example",
+    "displayName": "Alice Admin",
+    "mail": "alice@simulator.example",
+    "accountEnabled": true,
+    "createdDateTime": "2025-11-01T00:00:00Z"
+  },
+  {
+    "id": "u-002",
+    "userPrincipalName": "bob@simulator.example",
+    "displayName": "Bob Builder",
+    "mail": "bob@simulator.example",
+    "accountEnabled": true,
+    "createdDateTime": "2025-11-02T00:00:00Z"
+  }
+]

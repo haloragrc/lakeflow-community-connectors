@@ -1,0 +1,25 @@
+display_name: Slack
+connection:
+  parameters:
+    - name: api_token
+      type: string
+      required: true
+      secret: true
+      description: Slack bot or user OAuth token.
+    - name: base_url
+      type: string
+      required: false
+      description: Slack Web API base URL.
+    - name: page_size
+      type: string
+      required: false
+      description: Max records per request.
+    - name: max_channels
+      type: string
+      required: false
+      description: Max channels scanned for message collection.
+    - name: timeout_seconds
+      type: string
+      required: false
+      description: HTTP timeout in seconds.
+external_options_allowlist: "limit,cursor,cursor_after"

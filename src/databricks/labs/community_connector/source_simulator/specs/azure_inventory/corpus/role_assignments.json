@@ -1,0 +1,15 @@
+[
+  {
+    "id": "/subscriptions/11111111-2222-3333-4444-555555555555/providers/Microsoft.Authorization/roleAssignments/77777777-8888-9999-aaaa-bbbbbbbbbbbb",
+    "subscriptionId": "11111111-2222-3333-4444-555555555555",
+    "name": "77777777-8888-9999-aaaa-bbbbbbbbbbbb",
+    "properties": {
+      "scope": "/subscriptions/11111111-2222-3333-4444-555555555555",
+      "principalId": "12345678-1234-1234-1234-123456789012",
+      "principalType": "ServicePrincipal",
+      "roleDefinitionId": "/providers/Microsoft.Authorization/roleDefinitions/role-def-1",
+      "createdOn": "2026-03-01T12:00:00Z"
+    },
+    "updated_at": "2026-04-10T09:20:00Z"
+  }
+]

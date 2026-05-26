@@ -1,0 +1,12 @@
+[
+  {
+    "roleId": "AROASIMROLE001",
+    "accountId": "111122223333",
+    "roleName": "sim-security-audit-role",
+    "arn": "arn:aws:iam::111122223333:role/sim-security-audit-role",
+    "path": "/service-role/",
+    "description": "Simulator audit role",
+    "createDate": "2026-01-08T08:15:00Z",
+    "updated_at": "2026-04-02T11:00:00Z"
+  }
+]

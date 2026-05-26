@@ -1,0 +1,29 @@
+display_name: GCP Inventory
+connection:
+  parameters:
+    - name: service_account_email
+      type: string
+      required: true
+      description: GCP service account email.
+    - name: service_account_key
+      type: string
+      required: true
+      secret: true
+      description: GCP service account private key material.
+    - name: project_id
+      type: string
+      required: false
+      description: Optional default GCP project ID.
+    - name: base_url
+      type: string
+      required: false
+      description: Override base URL for the GCP API surface.
+    - name: page_size
+      type: string
+      required: false
+      description: Page size for list endpoints.
+    - name: timeout_seconds
+      type: string
+      required: false
+      description: HTTP timeout in seconds.
+external_options_allowlist: "cursor,limit,page_token"

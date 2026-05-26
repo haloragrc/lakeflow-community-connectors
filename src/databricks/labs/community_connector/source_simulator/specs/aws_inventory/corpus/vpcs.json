@@ -1,0 +1,12 @@
+[
+  {
+    "vpcId": "vpc-01ab23cd45ef67890",
+    "accountId": "111122223333",
+    "region": "us-east-1",
+    "cidrBlock": "10.24.0.0/16",
+    "isDefault": false,
+    "state": "available",
+    "ownerId": "111122223333",
+    "updated_at": "2026-04-01T03:00:00Z"
+  }
+]

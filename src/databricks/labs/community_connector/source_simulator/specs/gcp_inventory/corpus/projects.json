@@ -1,0 +1,11 @@
+[
+  {
+    "projectId": "sim-sec-prod-001",
+    "projectNumber": "102938475610",
+    "name": "sim-sec-prod-001",
+    "parent": {"type": "folder", "id": "445566778899"},
+    "lifecycleState": "ACTIVE",
+    "createTime": "2026-02-20T08:00:00Z",
+    "updateTime": "2026-04-11T08:10:00Z"
+  }
+]

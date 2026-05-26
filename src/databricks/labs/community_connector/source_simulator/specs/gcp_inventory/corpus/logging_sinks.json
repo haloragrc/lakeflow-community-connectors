@@ -1,0 +1,11 @@
+[
+  {
+    "name": "sim-security-sink",
+    "projectId": "sim-sec-prod-001",
+    "destination": "storage.googleapis.com/sim-sec-logs-bucket",
+    "filter": "logName:cloudaudit.googleapis.com",
+    "writerIdentity": "serviceAccount:service-123456789012@gcp-sa-logging.iam.gserviceaccount.com",
+    "includeChildren": false,
+    "updateTime": "2026-04-11T08:25:00Z"
+  }
+]

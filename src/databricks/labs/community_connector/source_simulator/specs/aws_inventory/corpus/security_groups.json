@@ -1,0 +1,12 @@
+[
+  {
+    "groupId": "sg-0aaa111bbb222ccc3",
+    "accountId": "111122223333",
+    "region": "us-east-1",
+    "groupName": "sim-web-sg",
+    "description": "Simulator web security group",
+    "vpcId": "vpc-01ab23cd45ef67890",
+    "ownerId": "111122223333",
+    "updated_at": "2026-04-01T03:05:00Z"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "665544332211",
+    "projectId": "sim-sec-prod-001",
+    "name": "sim-vpc-main",
+    "autoCreateSubnetworks": false,
+    "routingConfig": {"routingMode": "REGIONAL"},
+    "mtu": 1460,
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/sim-sec-prod-001/global/networks/sim-vpc-main",
+    "creationTimestamp": "2026-03-10T01:05:00Z"
+  }
+]

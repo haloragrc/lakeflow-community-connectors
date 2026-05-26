@@ -1,0 +1,13 @@
+[
+  {
+    "name": "default",
+    "accountId": "111122223333",
+    "region": "us-east-1",
+    "roleARN": "arn:aws:iam::111122223333:role/sim-config-role",
+    "recordingGroup": {"allSupported": true, "includeGlobalResourceTypes": true},
+    "recording": true,
+    "lastStatus": "SUCCESS",
+    "lastStatusChangeTime": "2026-04-04T05:20:00Z",
+    "updated_at": "2026-04-04T05:20:00Z"
+  }
+]

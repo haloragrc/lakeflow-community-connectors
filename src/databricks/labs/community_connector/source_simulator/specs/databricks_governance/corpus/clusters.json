@@ -1,0 +1,13 @@
+[
+  {
+    "cluster_id": "0101-ABCD123-clstr1",
+    "workspace_id": "9001",
+    "cluster_name": "sim-shared-compute",
+    "state": "RUNNING",
+    "node_type_id": "m5d.xlarge",
+    "spark_version": "14.3.x-scala2.12",
+    "autotermination_minutes": 30,
+    "last_state_loss_time": "2026-04-13T07:11:00Z",
+    "updated_at": "2026-04-13T07:11:00Z"
+  }
+]

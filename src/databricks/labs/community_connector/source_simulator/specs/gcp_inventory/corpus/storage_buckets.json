@@ -1,0 +1,12 @@
+[
+  {
+    "name": "sim-sec-logs-bucket",
+    "projectId": "sim-sec-prod-001",
+    "location": "US",
+    "storageClass": "STANDARD",
+    "iamConfiguration": {"uniformBucketLevelAccess": {"enabled": true}},
+    "versioning": {"enabled": true},
+    "timeCreated": "2026-03-05T03:00:00Z",
+    "updated": "2026-04-11T08:20:00Z"
+  }
+]

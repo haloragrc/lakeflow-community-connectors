@@ -1,0 +1,20 @@
+[
+  {
+    "id": "/subscriptions/11111111-2222-3333-4444-555555555555/providers/Microsoft.Security/assessments/sim-assessment-01",
+    "subscriptionId": "11111111-2222-3333-4444-555555555555",
+    "name": "sim-assessment-01",
+    "properties": {
+      "resourceDetails": {
+        "id": "/subscriptions/11111111-2222-3333-4444-555555555555/resourceGroups/sim-rg-security/providers/Microsoft.Storage/storageAccounts/simstgsecurity01"
+      },
+      "status": {"code": "Unhealthy", "firstEvaluationDate": "2026-04-09T20:00:00Z"},
+      "metadata": {
+        "displayName": "Storage accounts should disable public network access",
+        "severity": "High",
+        "remediationDescription": "Set publicNetworkAccess to Disabled"
+      },
+      "links": {"azurePortal": "https://portal.azure.com/#simulator"}
+    },
+    "updated_at": "2026-04-10T09:30:00Z"
+  }
+]

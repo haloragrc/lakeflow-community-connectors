@@ -1,0 +1,20 @@
+[
+  {
+    "id": "S001",
+    "name": "Incident Command",
+    "handle": "incident-command",
+    "description": "Incident response leadership",
+    "is_usergroup": true,
+    "date_update": "2026-04-05T06:00:00Z",
+    "date_create": "2026-04-01T00:00:00Z"
+  },
+  {
+    "id": "S002",
+    "name": "Security Engineers",
+    "handle": "sec-eng",
+    "description": "Security team",
+    "is_usergroup": true,
+    "date_update": "2026-04-05T06:10:00Z",
+    "date_create": "2026-04-01T01:00:00Z"
+  }
+]

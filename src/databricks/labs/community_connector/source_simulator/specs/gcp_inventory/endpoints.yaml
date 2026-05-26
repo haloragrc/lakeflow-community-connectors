@@ -1,0 +1,60 @@
+endpoints:
+  - path: /v1/organizations
+    method: GET
+    corpus: organizations
+    response: {pagination_style: none, wrapper: {records_key: organizations}}
+
+  - path: /v3/folders
+    method: GET
+    corpus: folders
+    response: {pagination_style: none, wrapper: {records_key: folders}}
+
+  - path: /v1/projects
+    method: GET
+    corpus: projects
+    response: {pagination_style: none, wrapper: {records_key: projects}}
+
+  - path: /v1/iam/serviceAccounts
+    method: GET
+    corpus: iam_service_accounts
+    response: {pagination_style: none, wrapper: {records_key: accounts}}
+
+  - path: /v1/iam/policies
+    method: GET
+    corpus: iam_policy_bindings
+    response: {pagination_style: none, wrapper: {records_key: bindings}}
+
+  - path: /v1/compute/instances
+    method: GET
+    corpus: compute_instances
+    response: {pagination_style: none, wrapper: {records_key: instances}}
+
+  - path: /v1/compute/networks
+    method: GET
+    corpus: vpc_networks
+    response: {pagination_style: none, wrapper: {records_key: networks}}
+
+  - path: /v1/compute/firewalls
+    method: GET
+    corpus: firewall_rules
+    response: {pagination_style: none, wrapper: {records_key: firewalls}}
+
+  - path: /v1/storage/buckets
+    method: GET
+    corpus: storage_buckets
+    response: {pagination_style: none, wrapper: {records_key: buckets}}
+
+  - path: /v1/kms/cryptokeys
+    method: GET
+    corpus: kms_crypto_keys
+    response: {pagination_style: none, wrapper: {records_key: cryptoKeys}}
+
+  - path: /v2/logging/sinks
+    method: GET
+    corpus: logging_sinks
+    response: {pagination_style: none, wrapper: {records_key: sinks}}
+
+  - path: /v1/security/findings
+    method: GET
+    corpus: scc_findings
+    response: {pagination_style: none, wrapper: {records_key: findings}}

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "t-001",
+    "displayName": "Security Operations",
+    "description": "SOC coordination",
+    "visibility": "Private",
+    "isArchived": false,
+    "createdDateTime": "2026-03-01T00:00:00Z"
+  },
+  {
+    "id": "t-002",
+    "displayName": "Platform Engineering",
+    "description": "Platform coordination",
+    "visibility": "Private",
+    "isArchived": false,
+    "createdDateTime": "2026-03-02T00:00:00Z"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "name": "projects/sim-sec-prod-001/locations/us/keyRings/sim-ring/cryptoKeys/sim-data-key",
+    "projectId": "sim-sec-prod-001",
+    "location": "us",
+    "keyRing": "sim-ring",
+    "purpose": "ENCRYPT_DECRYPT",
+    "primary": {"state": "ENABLED"},
+    "rotationPeriod": "7776000s",
+    "nextRotationTime": "2026-05-01T00:00:00Z",
+    "createTime": "2026-02-25T00:00:00Z"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "name": "organizations/998877665544",
+    "displayName": "sim-org-root",
+    "lifecycleState": "ACTIVE",
+    "owner": {"directoryCustomerId": "C00sim123"},
+    "updateTime": "2026-04-11T08:00:00Z"
+  }
+]

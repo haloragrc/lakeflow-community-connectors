@@ -1,0 +1,15 @@
+[
+  {
+    "id": "/subscriptions/11111111-2222-3333-4444-555555555555/resourceGroups/sim-rg-security/providers/Microsoft.KeyVault/vaults/sim-kv-main",
+    "subscriptionId": "11111111-2222-3333-4444-555555555555",
+    "name": "sim-kv-main",
+    "location": "eastus",
+    "properties": {
+      "tenantId": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+      "sku": {"name": "standard"},
+      "enableSoftDelete": true,
+      "publicNetworkAccess": "Enabled"
+    },
+    "updated_at": "2026-04-10T09:18:00Z"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "rec-001",
+    "properties": {
+      "displayName": "Enable just-in-time VM access",
+      "description": "Reduce exposed management ports",
+      "category": "Compute",
+      "severity": "High",
+      "state": "Active",
+      "updatedOn": "2026-04-05T06:00:00Z"
+    }
+  },
+  {
+    "id": "rec-002",
+    "properties": {
+      "displayName": "Turn on defender plans",
+      "description": "Enable coverage for resources",
+      "category": "General",
+      "severity": "Medium",
+      "state": "Active",
+      "updatedOn": "2026-04-05T06:10:00Z"
+    }
+  }
+]

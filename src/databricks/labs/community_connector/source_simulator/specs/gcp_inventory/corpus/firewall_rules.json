@@ -1,0 +1,13 @@
+[
+  {
+    "id": "771122334455",
+    "projectId": "sim-sec-prod-001",
+    "name": "sim-allow-https",
+    "network": "projects/sim-sec-prod-001/global/networks/sim-vpc-main",
+    "direction": "INGRESS",
+    "priority": 1000,
+    "sourceRanges": ["0.0.0.0/0"],
+    "targetTags": ["web"],
+    "creationTimestamp": "2026-03-10T01:10:00Z"
+  }
+]

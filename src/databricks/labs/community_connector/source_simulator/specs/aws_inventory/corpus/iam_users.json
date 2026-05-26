@@ -1,0 +1,12 @@
+[
+  {
+    "userId": "AIDASIMUSER001",
+    "accountId": "111122223333",
+    "userName": "sim-analyst",
+    "arn": "arn:aws:iam::111122223333:user/sim-analyst",
+    "path": "/security/",
+    "createDate": "2026-01-10T11:00:00Z",
+    "passwordLastUsed": "2026-04-02T12:30:00Z",
+    "updated_at": "2026-04-02T12:30:00Z"
+  }
+]

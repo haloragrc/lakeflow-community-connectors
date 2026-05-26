@@ -1,0 +1,24 @@
+[
+  {
+    "id": "rule-001",
+    "properties": {
+      "displayName": "Impossible travel analytics",
+      "enabled": true,
+      "tactics": ["CredentialAccess"],
+      "queryFrequency": "PT1H",
+      "queryPeriod": "PT1H",
+      "lastModifiedUtc": "2026-04-05T06:00:00Z"
+    }
+  },
+  {
+    "id": "rule-002",
+    "properties": {
+      "displayName": "Endpoint suspicious process",
+      "enabled": true,
+      "tactics": ["Execution"],
+      "queryFrequency": "PT1H",
+      "queryPeriod": "PT24H",
+      "lastModifiedUtc": "2026-04-05T06:10:00Z"
+    }
+  }
+]

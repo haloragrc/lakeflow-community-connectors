@@ -1,0 +1,12 @@
+[
+  {
+    "name": "SIM_WH_XS",
+    "state": "STARTED",
+    "size": "XSMALL",
+    "type": "STANDARD",
+    "auto_suspend": 300,
+    "auto_resume": true,
+    "created_on": "2026-01-03T00:00:00Z",
+    "updated_at": "2026-04-12T07:54:00Z"
+  }
+]

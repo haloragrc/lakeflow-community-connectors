@@ -1,0 +1,10 @@
+[
+  {
+    "name": "SIM_CORP_IP_POLICY",
+    "allowed_ip_list": ["10.0.0.0/8"],
+    "blocked_ip_list": ["0.0.0.0/0"],
+    "comment": "Simulator network policy",
+    "created_on": "2026-01-08T00:00:00Z",
+    "updated_at": "2026-04-12T07:59:20Z"
+  }
+]

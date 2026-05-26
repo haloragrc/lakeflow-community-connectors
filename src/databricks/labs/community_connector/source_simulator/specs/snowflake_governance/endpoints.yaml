@@ -1,0 +1,65 @@
+endpoints:
+  - path: /v1/accounts
+    method: GET
+    corpus: accounts
+    response: {pagination_style: none, wrapper: {records_key: accounts}}
+
+  - path: /v1/users
+    method: GET
+    corpus: users
+    response: {pagination_style: none, wrapper: {records_key: users}}
+
+  - path: /v1/roles
+    method: GET
+    corpus: roles
+    response: {pagination_style: none, wrapper: {records_key: roles}}
+
+  - path: /v1/rolegrants
+    method: GET
+    corpus: role_grants
+    response: {pagination_style: none, wrapper: {records_key: grants}}
+
+  - path: /v1/warehouses
+    method: GET
+    corpus: warehouses
+    response: {pagination_style: none, wrapper: {records_key: warehouses}}
+
+  - path: /v1/databases
+    method: GET
+    corpus: databases
+    response: {pagination_style: none, wrapper: {records_key: databases}}
+
+  - path: /v1/schemas
+    method: GET
+    corpus: schemas
+    response: {pagination_style: none, wrapper: {records_key: schemas}}
+
+  - path: /v1/tables
+    method: GET
+    corpus: tables
+    response: {pagination_style: none, wrapper: {records_key: tables}}
+
+  - path: /v1/stages
+    method: GET
+    corpus: stages
+    response: {pagination_style: none, wrapper: {records_key: stages}}
+
+  - path: /v1/maskingpolicies
+    method: GET
+    corpus: masking_policies
+    response: {pagination_style: none, wrapper: {records_key: policies}}
+
+  - path: /v1/networkpolicies
+    method: GET
+    corpus: network_policies
+    response: {pagination_style: none, wrapper: {records_key: policies}}
+
+  - path: /v1/loginhistory
+    method: GET
+    corpus: login_history
+    response: {pagination_style: none, wrapper: {records_key: events}}
+
+  - path: /v1/queryhistory
+    method: GET
+    corpus: query_history
+    response: {pagination_style: none, wrapper: {records_key: queries}}

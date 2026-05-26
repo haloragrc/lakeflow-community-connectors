@@ -1,0 +1,12 @@
+[
+  {
+    "name": "sim-security-logs-bucket",
+    "accountId": "111122223333",
+    "arn": "arn:aws:s3:::sim-security-logs-bucket",
+    "region": "us-east-1",
+    "creationDate": "2026-01-05T12:00:00Z",
+    "publicAccessBlocked": true,
+    "versioningStatus": "Enabled",
+    "updated_at": "2026-04-04T01:00:00Z"
+  }
+]

@@ -1,0 +1,25 @@
+display_name: Teams
+connection:
+  parameters:
+    - name: access_token
+      type: string
+      required: true
+      secret: true
+      description: Microsoft Graph OAuth bearer token.
+    - name: base_url
+      type: string
+      required: false
+      description: Microsoft Graph base URL.
+    - name: max_teams
+      type: string
+      required: false
+      description: Max teams scanned for channel/message extraction.
+    - name: max_channels
+      type: string
+      required: false
+      description: Max channels scanned per team for message extraction.
+    - name: timeout_seconds
+      type: string
+      required: false
+      description: HTTP timeout in seconds.
+external_options_allowlist: "top,skiptoken,cursor_after"

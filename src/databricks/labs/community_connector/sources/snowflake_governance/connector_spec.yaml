@@ -1,0 +1,29 @@
+display_name: Snowflake Governance
+connection:
+  parameters:
+    - name: account_identifier
+      type: string
+      required: true
+      description: Snowflake account identifier.
+    - name: user
+      type: string
+      required: true
+      description: Snowflake username.
+    - name: password
+      type: string
+      required: true
+      secret: true
+      description: Snowflake password.
+    - name: base_url
+      type: string
+      required: false
+      description: Override base URL for Snowflake APIs.
+    - name: page_size
+      type: string
+      required: false
+      description: Page size for list endpoints.
+    - name: timeout_seconds
+      type: string
+      required: false
+      description: HTTP timeout in seconds.
+external_options_allowlist: "cursor,limit,page_token"

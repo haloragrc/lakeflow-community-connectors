@@ -1,0 +1,10 @@
+[
+  {
+    "account_name": "SIM_ACCT",
+    "organization_name": "SIM_ORG",
+    "edition": "ENTERPRISE",
+    "region": "AWS_US_EAST_1",
+    "locator": "xy12345",
+    "updated_at": "2026-04-12T08:00:00Z"
+  }
+]

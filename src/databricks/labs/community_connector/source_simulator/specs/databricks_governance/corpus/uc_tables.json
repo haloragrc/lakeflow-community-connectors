@@ -1,0 +1,13 @@
+[
+  {
+    "table_id": "uc-table-1",
+    "catalog_name": "sim_main",
+    "schema_name": "governance",
+    "table_name": "audit_events",
+    "table_type": "MANAGED",
+    "data_source_format": "DELTA",
+    "storage_location": "s3://sim-dbx-catalog-root/governance/audit_events",
+    "created_at": "2026-02-10T00:00:00Z",
+    "updated_at": "2026-04-13T07:16:00Z"
+  }
+]

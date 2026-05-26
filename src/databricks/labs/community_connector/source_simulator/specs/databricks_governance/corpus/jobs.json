@@ -1,0 +1,12 @@
+[
+  {
+    "job_id": "7001",
+    "workspace_id": "9001",
+    "name": "sim-daily-governance-sync",
+    "creator_user_name": "sim.analyst@databricks.invalid",
+    "schedule": {"quartz_cron_expression": "0 0 3 * * ?"},
+    "max_concurrent_runs": 1,
+    "created_time": "2026-03-10T00:00:00Z",
+    "updated_at": "2026-04-13T07:12:00Z"
+  }
+]

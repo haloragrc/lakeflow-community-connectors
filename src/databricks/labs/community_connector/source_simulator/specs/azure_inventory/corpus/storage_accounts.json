@@ -1,0 +1,12 @@
+[
+  {
+    "id": "/subscriptions/11111111-2222-3333-4444-555555555555/resourceGroups/sim-rg-security/providers/Microsoft.Storage/storageAccounts/simstgsecurity01",
+    "subscriptionId": "11111111-2222-3333-4444-555555555555",
+    "name": "simstgsecurity01",
+    "location": "eastus",
+    "sku": {"name": "Standard_LRS"},
+    "kind": "StorageV2",
+    "properties": {"primaryEndpoints": {"blob": "https://simstgsecurity01.blob.core.windows.net/"}},
+    "updated_at": "2026-04-10T09:15:00Z"
+  }
+]

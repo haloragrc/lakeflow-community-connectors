@@ -1,0 +1,36 @@
+[
+  {
+    "id": "m-001",
+    "from": {"user": {"id": "u-001"}},
+    "messageType": "message",
+    "subject": "Incident kickoff",
+    "summary": "Investigation started",
+    "createdDateTime": "2026-04-05T08:00:00Z",
+    "lastModifiedDateTime": "2026-04-05T08:05:00Z",
+    "attachments": [
+      {
+        "id": "a-001",
+        "name": "timeline.md",
+        "contentType": "reference",
+        "contentUrl": "https://files.example/timeline.md"
+      }
+    ]
+  },
+  {
+    "id": "m-002",
+    "from": {"user": {"id": "u-002"}},
+    "messageType": "message",
+    "subject": "Patch update",
+    "summary": "Patch deployed",
+    "createdDateTime": "2026-04-05T09:00:00Z",
+    "lastModifiedDateTime": "2026-04-05T09:10:00Z",
+    "attachments": [
+      {
+        "id": "a-002",
+        "name": "patch-notes.txt",
+        "contentType": "reference",
+        "contentUrl": "https://files.example/patch-notes.txt"
+      }
+    ]
+  }
+]

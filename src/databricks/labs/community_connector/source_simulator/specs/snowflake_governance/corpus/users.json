@@ -1,0 +1,12 @@
+[
+  {
+    "name": "SIM_ANALYST",
+    "login_name": "sim_analyst",
+    "email": "sim_analyst@example.invalid",
+    "default_role": "SECURITYADMIN",
+    "disabled": false,
+    "created_on": "2026-01-01T00:00:00Z",
+    "last_success_login": "2026-04-12T07:45:00Z",
+    "updated_at": "2026-04-12T07:45:00Z"
+  }
+]

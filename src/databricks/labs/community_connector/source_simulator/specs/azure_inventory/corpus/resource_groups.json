@@ -1,0 +1,11 @@
+[
+  {
+    "id": "/subscriptions/11111111-2222-3333-4444-555555555555/resourceGroups/sim-rg-security",
+    "subscriptionId": "11111111-2222-3333-4444-555555555555",
+    "name": "sim-rg-security",
+    "location": "eastus",
+    "managedBy": "simulator",
+    "properties": {"provisioningState": "Succeeded", "createdTime": "2026-02-01T00:00:00Z"},
+    "updated_at": "2026-04-10T08:05:00Z"
+  }
+]

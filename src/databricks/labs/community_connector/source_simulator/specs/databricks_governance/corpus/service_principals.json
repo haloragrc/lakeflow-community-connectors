@@ -1,0 +1,10 @@
+[
+  {
+    "id": "3001",
+    "application_id": "11112222-3333-4444-5555-666677778888",
+    "display_name": "sim-cicd-sp",
+    "active": true,
+    "entitlements": [{"value": "workspace-access"}],
+    "updated_at": "2026-04-13T07:08:00Z"
+  }
+]

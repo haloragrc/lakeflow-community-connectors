@@ -1,0 +1,32 @@
+[
+  {
+    "id": "alert-001",
+    "properties": {
+      "alertDisplayName": "Suspicious process execution",
+      "severity": "High",
+      "status": "Active",
+      "resourceIdentifiers": [
+        {
+          "azureResourceId": "/subscriptions/sub-123/resourceGroups/rg-app/providers/Microsoft.Compute/virtualMachines/vm-01"
+        }
+      ],
+      "timeGeneratedUtc": "2026-04-05T09:00:00Z",
+      "compromisedEntity": "vm-01"
+    }
+  },
+  {
+    "id": "alert-002",
+    "properties": {
+      "alertDisplayName": "Anonymous access detected",
+      "severity": "Medium",
+      "status": "Dismissed",
+      "resourceIdentifiers": [
+        {
+          "azureResourceId": "/subscriptions/sub-123/resourceGroups/rg-app/providers/Microsoft.Storage/storageAccounts/stapp01"
+        }
+      ],
+      "timeGeneratedUtc": "2026-04-05T09:10:00Z",
+      "compromisedEntity": "stapp01"
+    }
+  }
+]

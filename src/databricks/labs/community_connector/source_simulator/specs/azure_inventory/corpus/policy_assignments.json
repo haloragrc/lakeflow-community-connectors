@@ -1,0 +1,14 @@
+[
+  {
+    "id": "/subscriptions/11111111-2222-3333-4444-555555555555/providers/Microsoft.Authorization/policyAssignments/sim-assign-01",
+    "subscriptionId": "11111111-2222-3333-4444-555555555555",
+    "name": "sim-assign-01",
+    "properties": {
+      "displayName": "Require secure transfer for storage accounts",
+      "scope": "/subscriptions/11111111-2222-3333-4444-555555555555",
+      "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/policy-def-1",
+      "enforcementMode": "Default"
+    },
+    "updated_at": "2026-04-10T09:22:00Z"
+  }
+]

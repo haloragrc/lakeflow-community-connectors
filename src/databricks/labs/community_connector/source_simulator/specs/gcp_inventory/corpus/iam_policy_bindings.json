@@ -1,0 +1,13 @@
+[
+  {
+    "projectId": "sim-sec-prod-001",
+    "role": "roles/compute.admin",
+    "members": ["group:sim-platform@example.invalid"],
+    "condition": {
+      "title": "prod-only",
+      "expression": "resource.name.startsWith('projects/sim-sec-prod-001')"
+    },
+    "etag": "BwWsimetag=",
+    "updateTime": "2026-04-11T08:15:00Z"
+  }
+]

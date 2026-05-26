@@ -1,0 +1,96 @@
+endpoints:
+  - path: /identity/accounts
+    method: GET
+    corpus: accounts
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: accounts
+
+  - path: /iam/users
+    method: GET
+    corpus: iam_users
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: users
+
+  - path: /iam/roles
+    method: GET
+    corpus: iam_roles
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: roles
+
+  - path: /iam/policies
+    method: GET
+    corpus: iam_policies
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: policies
+
+  - path: /compute/ec2/instances
+    method: GET
+    corpus: ec2_instances
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: instances
+
+  - path: /network/vpcs
+    method: GET
+    corpus: vpcs
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: vpcs
+
+  - path: /network/security-groups
+    method: GET
+    corpus: security_groups
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: security_groups
+
+  - path: /storage/s3/buckets
+    method: GET
+    corpus: s3_buckets
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: buckets
+
+  - path: /security/kms/keys
+    method: GET
+    corpus: kms_keys
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: keys
+
+  - path: /audit/cloudtrail/trails
+    method: GET
+    corpus: cloudtrail_trails
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: trails
+
+  - path: /posture/config/recorders
+    method: GET
+    corpus: config_recorders
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: recorders
+
+  - path: /security/guardduty/findings
+    method: GET
+    corpus: guardduty_findings
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: findings

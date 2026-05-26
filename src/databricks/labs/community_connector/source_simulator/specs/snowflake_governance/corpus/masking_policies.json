@@ -1,0 +1,13 @@
+[
+  {
+    "policy_id": "mask-sim-01",
+    "database_name": "SIM_SECURITY_DB",
+    "schema_name": "PUBLIC",
+    "name": "SIM_MASK_EMAIL",
+    "owner": "SECURITYADMIN",
+    "signature": "(val STRING) RETURNS STRING",
+    "created_on": "2026-01-07T00:00:00Z",
+    "last_altered": "2026-04-12T07:59:00Z",
+    "updated_at": "2026-04-12T07:59:00Z"
+  }
+]

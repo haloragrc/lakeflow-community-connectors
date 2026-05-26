@@ -1,0 +1,55 @@
+endpoints:
+  - path: /api/users.list
+    method: GET
+    corpus: users
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: members
+        extras:
+          ok: true
+          response_metadata: {next_cursor: ""}
+
+  - path: /api/conversations.list
+    method: GET
+    corpus: channels
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: channels
+        extras:
+          ok: true
+          response_metadata: {next_cursor: ""}
+
+  - path: /api/conversations.history
+    method: GET
+    corpus: messages
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: messages
+        extras:
+          ok: true
+          has_more: false
+          response_metadata: {next_cursor: ""}
+
+  - path: /api/files.list
+    method: GET
+    corpus: files
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: files
+        extras:
+          ok: true
+          response_metadata: {next_cursor: ""}
+
+  - path: /api/usergroups.list
+    method: GET
+    corpus: usergroups
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: usergroups
+        extras:
+          ok: true

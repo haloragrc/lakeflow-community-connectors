@@ -1,0 +1,35 @@
+display_name: AWS Inventory
+connection:
+  parameters:
+    - name: access_key_id
+      type: string
+      required: true
+      secret: true
+      description: AWS access key ID.
+    - name: secret_access_key
+      type: string
+      required: true
+      secret: true
+      description: AWS secret access key.
+    - name: session_token
+      type: string
+      required: false
+      secret: true
+      description: Optional AWS session token.
+    - name: account_id
+      type: string
+      required: false
+      description: Optional default AWS account ID for emitted records.
+    - name: base_url
+      type: string
+      required: false
+      description: Override base URL for the AWS inventory API.
+    - name: page_size
+      type: string
+      required: false
+      description: Page size used for list endpoints.
+    - name: timeout_seconds
+      type: string
+      required: false
+      description: HTTP timeout in seconds.
+external_options_allowlist: "cursor,limit,next_token"

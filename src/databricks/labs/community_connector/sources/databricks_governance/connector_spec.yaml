@@ -1,0 +1,33 @@
+display_name: Databricks Governance
+connection:
+  parameters:
+    - name: account_id
+      type: string
+      required: true
+      description: Databricks account ID.
+    - name: client_id
+      type: string
+      required: true
+      description: Databricks service principal client ID.
+    - name: client_secret
+      type: string
+      required: true
+      secret: true
+      description: Databricks service principal client secret.
+    - name: workspace_id
+      type: string
+      required: false
+      description: Optional default workspace ID.
+    - name: base_url
+      type: string
+      required: false
+      description: Override base URL for Databricks account/workspace APIs.
+    - name: page_size
+      type: string
+      required: false
+      description: Page size for list endpoints.
+    - name: timeout_seconds
+      type: string
+      required: false
+      description: HTTP timeout in seconds.
+external_options_allowlist: "cursor,limit,page_token"

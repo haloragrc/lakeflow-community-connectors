@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sentinel-alert-001",
+    "properties": {
+      "alertDisplayName": "Suspicious sign-in",
+      "severity": "High",
+      "status": "New",
+      "providerName": "Azure Sentinel",
+      "productName": "Azure Active Directory",
+      "startTimeUtc": "2026-04-05T07:50:00Z",
+      "endTimeUtc": "2026-04-05T08:00:00Z"
+    }
+  },
+  {
+    "id": "sentinel-alert-002",
+    "properties": {
+      "alertDisplayName": "Potential malware execution",
+      "severity": "Medium",
+      "status": "InProgress",
+      "providerName": "Azure Sentinel",
+      "productName": "Microsoft Defender for Endpoint",
+      "startTimeUtc": "2026-04-05T08:05:00Z",
+      "endTimeUtc": "2026-04-05T08:15:00Z"
+    }
+  }
+]

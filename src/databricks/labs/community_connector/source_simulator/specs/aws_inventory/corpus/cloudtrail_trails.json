@@ -1,0 +1,13 @@
+[
+  {
+    "trailARN": "arn:aws:cloudtrail:us-east-1:111122223333:trail/sim-org-trail",
+    "accountId": "111122223333",
+    "name": "sim-org-trail",
+    "homeRegion": "us-east-1",
+    "s3BucketName": "sim-security-logs-bucket",
+    "isMultiRegionTrail": true,
+    "logFileValidationEnabled": true,
+    "kmsKeyId": "1234abcd-12ab-34cd-56ef-1234567890ab",
+    "updated_at": "2026-04-05T06:00:00Z"
+  }
+]

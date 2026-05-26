@@ -1,0 +1,38 @@
+[
+  {
+    "id": "assessment-001",
+    "name": "a-001",
+    "properties": {
+      "displayName": "Machines should have endpoint protection",
+      "status": {
+        "code": "Unhealthy",
+        "firstEvaluationDate": "2026-04-05T08:00:00Z"
+      },
+      "metadata": {
+        "severity": "High",
+        "description": "Endpoint protection recommendation"
+      },
+      "resourceDetails": {
+        "id": "/subscriptions/sub-123/resourceGroups/rg-app/providers/Microsoft.Compute/virtualMachines/vm-01"
+      }
+    }
+  },
+  {
+    "id": "assessment-002",
+    "name": "a-002",
+    "properties": {
+      "displayName": "Storage accounts should restrict network access",
+      "status": {
+        "code": "Healthy",
+        "firstEvaluationDate": "2026-04-05T08:10:00Z"
+      },
+      "metadata": {
+        "severity": "Medium",
+        "description": "Storage network restriction"
+      },
+      "resourceDetails": {
+        "id": "/subscriptions/sub-123/resourceGroups/rg-app/providers/Microsoft.Storage/storageAccounts/stapp01"
+      }
+    }
+  }
+]

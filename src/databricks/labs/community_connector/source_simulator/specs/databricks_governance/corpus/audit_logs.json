@@ -1,0 +1,13 @@
+[
+  {
+    "audit_event_id": "evt-dbx-1",
+    "workspace_id": "9001",
+    "event_time": "2026-04-13T07:18:00Z",
+    "service_name": "clusters",
+    "action_name": "create",
+    "user_identity": {"email": "sim.analyst@databricks.invalid"},
+    "source_ip": "203.0.113.40",
+    "response_status": "SUCCESS",
+    "updated_at": "2026-04-13T07:18:00Z"
+  }
+]

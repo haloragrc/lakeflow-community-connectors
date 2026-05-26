@@ -1,0 +1,12 @@
+[
+  {
+    "stage_id": "stage-sim-01",
+    "database_name": "SIM_SECURITY_DB",
+    "schema_name": "PUBLIC",
+    "name": "SIM_STAGE",
+    "url": "s3://sim-stage-bucket/",
+    "owner": "SYSADMIN",
+    "created_on": "2026-01-06T00:00:00Z",
+    "updated_at": "2026-04-12T07:58:30Z"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sentinel-incident-001",
+    "properties": {
+      "title": "Impossible travel detected",
+      "severity": "High",
+      "status": "Active",
+      "owner": {"email": "alice@simulator.example"},
+      "labels": [{"labelName": "Identity"}],
+      "createdTimeUtc": "2026-04-05T08:00:00Z",
+      "lastModifiedTimeUtc": "2026-04-05T08:10:00Z"
+    }
+  },
+  {
+    "id": "sentinel-incident-002",
+    "properties": {
+      "title": "Suspicious process chain",
+      "severity": "Medium",
+      "status": "Closed",
+      "owner": {"email": "bob@simulator.example"},
+      "labels": [{"labelName": "Endpoint"}],
+      "createdTimeUtc": "2026-04-05T08:20:00Z",
+      "lastModifiedTimeUtc": "2026-04-05T08:30:00Z"
+    }
+  }
+]

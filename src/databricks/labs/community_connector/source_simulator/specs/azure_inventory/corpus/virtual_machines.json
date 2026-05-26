@@ -1,0 +1,15 @@
+[
+  {
+    "id": "/subscriptions/11111111-2222-3333-4444-555555555555/resourceGroups/sim-rg-security/providers/Microsoft.Compute/virtualMachines/sim-vm-01",
+    "subscriptionId": "11111111-2222-3333-4444-555555555555",
+    "name": "sim-vm-01",
+    "location": "eastus",
+    "hardwareProfile": {"vmSize": "Standard_D4s_v5"},
+    "properties": {
+      "powerState": "VM running",
+      "timeCreated": "2026-03-20T01:00:00Z",
+      "storageProfile": {"osDisk": {"osType": "Linux"}}
+    },
+    "updated_at": "2026-04-10T09:00:00Z"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "bookmark-001",
+    "properties": {
+      "displayName": "Suspicious sign-in context",
+      "createdBy": {"email": "alice@simulator.example"},
+      "notes": "Review sign-in anomalies",
+      "query": "SigninLogs | where ResultType != 0",
+      "created": "2026-04-05T04:00:00Z",
+      "updated": "2026-04-05T04:10:00Z"
+    }
+  },
+  {
+    "id": "bookmark-002",
+    "properties": {
+      "displayName": "Endpoint process spikes",
+      "createdBy": {"email": "bob@simulator.example"},
+      "notes": "Track elevated process chains",
+      "query": "DeviceProcessEvents | where ProcessCommandLine has 'powershell'",
+      "created": "2026-04-05T04:20:00Z",
+      "updated": "2026-04-05T04:30:00Z"
+    }
+  }
+]

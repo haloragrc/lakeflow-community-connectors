@@ -1,0 +1,11 @@
+[
+  {
+    "id": "111122223333",
+    "name": "simulator-security-account",
+    "email": "security-sim@example.invalid",
+    "status": "ACTIVE",
+    "joinedMethod": "INVITED",
+    "joinedTimestamp": "2026-03-01T09:00:00Z",
+    "updated_at": "2026-04-01T09:00:00Z"
+  }
+]
