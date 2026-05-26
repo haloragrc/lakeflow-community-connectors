@@ -1,0 +1,90 @@
+[
+  {
+    "id": "00000000-0000-0000-0000-000000000401",
+    "type": "issue",
+    "attributes": {
+      "type": "package_vulnerability",
+      "title": "Prototype pollution",
+      "effective_severity_level": "high",
+      "status": "open",
+      "created_at": "2026-04-03T05:00:00Z",
+      "updated_at": "2026-04-03T06:00:00Z",
+      "classes": [
+        {
+          "source": "CVE",
+          "id": "CVE-2099-3001",
+          "type": "weakness"
+        }
+      ],
+      "coordinates": [
+        {
+          "representations": [
+            {
+              "source_location": {
+                "path": "package-lock.json"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "relationships": {
+      "scan_item": {
+        "data": {
+          "id": "00000000-0000-0000-0000-000000000301",
+          "type": "project"
+        }
+      },
+      "target": {
+        "data": {
+          "id": "00000000-0000-0000-0000-000000000201",
+          "type": "target"
+        }
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000402",
+    "type": "issue",
+    "attributes": {
+      "type": "code",
+      "title": "Hardcoded credential in repository",
+      "effective_severity_level": "critical",
+      "status": "open",
+      "created_at": "2026-04-03T05:30:00Z",
+      "updated_at": "2026-04-03T06:30:00Z",
+      "classes": [
+        {
+          "source": "CWE",
+          "id": "CWE-798",
+          "type": "weakness"
+        }
+      ],
+      "coordinates": [
+        {
+          "representations": [
+            {
+              "source_location": {
+                "path": "src/config.py"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "relationships": {
+      "scan_item": {
+        "data": {
+          "id": "00000000-0000-0000-0000-000000000302",
+          "type": "project"
+        }
+      },
+      "target": {
+        "data": {
+          "id": "00000000-0000-0000-0000-000000000202",
+          "type": "target"
+        }
+      }
+    }
+  }
+]

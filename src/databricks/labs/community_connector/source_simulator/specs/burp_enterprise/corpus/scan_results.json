@@ -1,0 +1,18 @@
+[
+  {
+    "id": "scan-result-001",
+    "scan": {"id": "scan-001"},
+    "site": {"id": "site-001"},
+    "status": "COMPLETED",
+    "issueCount": 12,
+    "updatedAt": "2026-04-02T00:22:00Z"
+  },
+  {
+    "id": "scan-result-002",
+    "scan": {"id": "scan-002"},
+    "site": {"id": "site-002"},
+    "status": "RUNNING",
+    "issueCount": 3,
+    "updatedAt": "2026-04-03T00:15:00Z"
+  }
+]

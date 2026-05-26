@@ -1,0 +1,29 @@
+display_name: Snyk
+connection:
+  parameters:
+    - name: api_token
+      type: string
+      required: true
+      secret: true
+      description: Snyk API token.
+    - name: org_id
+      type: string
+      required: true
+      description: Snyk organization ID.
+    - name: base_url
+      type: string
+      required: false
+      description: Snyk REST API base URL.
+    - name: api_version
+      type: string
+      required: false
+      description: Requested Snyk API version.
+    - name: page_size
+      type: string
+      required: false
+      description: Maximum records per page for cursor-based endpoints.
+    - name: timeout_seconds
+      type: string
+      required: false
+      description: HTTP timeout in seconds.
+external_options_allowlist: "starting_after,ending_before,cursor_after"

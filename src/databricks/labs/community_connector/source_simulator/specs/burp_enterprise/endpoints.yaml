@@ -1,0 +1,4 @@
+endpoints:
+  - path: /graphql
+    method: POST
+    handler: databricks.labs.community_connector.source_simulator.specs.burp_enterprise.handlers.graphql_router:serve_graphql

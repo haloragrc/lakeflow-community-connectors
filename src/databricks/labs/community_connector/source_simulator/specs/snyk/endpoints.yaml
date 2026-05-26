@@ -1,0 +1,33 @@
+endpoints:
+  - path: /rest/orgs/{org_id}
+    method: GET
+    corpus: organizations
+    response:
+      single_entity: true
+      pagination_style: none
+      wrapper:
+        records_key: data
+
+  - path: /rest/orgs/{org_id}/targets
+    method: GET
+    corpus: targets
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: data
+
+  - path: /rest/orgs/{org_id}/projects
+    method: GET
+    corpus: projects
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: data
+
+  - path: /rest/orgs/{org_id}/issues
+    method: GET
+    corpus: issues
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: data

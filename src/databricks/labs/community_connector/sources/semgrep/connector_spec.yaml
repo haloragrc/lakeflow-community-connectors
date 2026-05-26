@@ -1,0 +1,25 @@
+display_name: Semgrep
+connection:
+  parameters:
+    - name: api_token
+      type: string
+      required: true
+      secret: true
+      description: Semgrep API token.
+    - name: deployment_slug
+      type: string
+      required: true
+      description: Semgrep deployment slug.
+    - name: base_url
+      type: string
+      required: false
+      description: Semgrep API base URL.
+    - name: page_size
+      type: string
+      required: false
+      description: Page size for paginated Semgrep endpoints.
+    - name: timeout_seconds
+      type: string
+      required: false
+      description: HTTP timeout in seconds.
+external_options_allowlist: "cursor,limit,cursor_after"

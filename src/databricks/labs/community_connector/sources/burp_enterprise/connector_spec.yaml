@@ -1,0 +1,17 @@
+display_name: Burp Enterprise
+connection:
+  parameters:
+    - name: api_token
+      type: string
+      required: true
+      secret: true
+      description: Burp DAST API token.
+    - name: base_url
+      type: string
+      required: false
+      description: Base URL for Burp DAST API.
+    - name: timeout_seconds
+      type: string
+      required: false
+      description: HTTP timeout in seconds.
+external_options_allowlist: "cursor_after"

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "finding-001",
+    "scan": {"id": "scan-001"},
+    "site": {"id": "site-001"},
+    "title": "Cross-site scripting",
+    "severity": "HIGH",
+    "confidence": "FIRM",
+    "status": "OPEN",
+    "path": "/profile",
+    "updatedAt": "2026-04-02T00:23:00Z"
+  },
+  {
+    "id": "finding-002",
+    "scan": {"id": "scan-001"},
+    "site": {"id": "site-001"},
+    "title": "SQL injection",
+    "severity": "CRITICAL",
+    "confidence": "FIRM",
+    "status": "OPEN",
+    "path": "/search",
+    "updatedAt": "2026-04-02T00:24:00Z"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "00000000-0000-0000-0000-000000000301",
+    "type": "project",
+    "attributes": {
+      "name": "simulator-app",
+      "type": "npm",
+      "status": "active",
+      "lifecycle": "production",
+      "origin": "cli",
+      "last_tested_at": "2026-04-03T03:00:00Z",
+      "updated_at": "2026-04-03T03:00:00Z"
+    },
+    "relationships": {
+      "target": {
+        "data": {
+          "id": "00000000-0000-0000-0000-000000000201",
+          "type": "target"
+        }
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000302",
+    "type": "project",
+    "attributes": {
+      "name": "simulator-api",
+      "type": "maven",
+      "status": "active",
+      "lifecycle": "development",
+      "origin": "scm",
+      "last_tested_at": "2026-04-03T04:00:00Z",
+      "updated_at": "2026-04-03T04:00:00Z"
+    },
+    "relationships": {
+      "target": {
+        "data": {
+          "id": "00000000-0000-0000-0000-000000000202",
+          "type": "target"
+        }
+      }
+    }
+  }
+]

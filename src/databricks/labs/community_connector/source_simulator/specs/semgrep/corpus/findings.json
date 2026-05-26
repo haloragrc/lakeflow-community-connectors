@@ -1,0 +1,26 @@
+[
+  {
+    "id": "finding-801",
+    "project_id": "project-701",
+    "rule_id": "python.lang.security.audit.sqlalchemy.sql-injection",
+    "title": "Potential SQL injection",
+    "severity": "high",
+    "status": "open",
+    "category": "code",
+    "cve": null,
+    "created_at": "2026-04-04T03:00:00Z",
+    "updated_at": "2026-04-04T03:30:00Z"
+  },
+  {
+    "id": "finding-802",
+    "project_id": "project-702",
+    "rule_id": "sca.java.log4j",
+    "title": "Reachable vulnerable dependency",
+    "severity": "critical",
+    "status": "open",
+    "category": "supply_chain",
+    "cve": "CVE-2099-4001",
+    "created_at": "2026-04-04T04:00:00Z",
+    "updated_at": "2026-04-04T04:30:00Z"
+  }
+]

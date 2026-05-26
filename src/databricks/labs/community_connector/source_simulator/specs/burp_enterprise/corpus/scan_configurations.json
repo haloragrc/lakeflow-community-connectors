@@ -1,0 +1,16 @@
+[
+  {
+    "id": "cfg-001",
+    "name": "Full crawl and audit",
+    "crawlProfile": "deep",
+    "auditProfile": "active",
+    "updatedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "cfg-002",
+    "name": "API fast pass",
+    "crawlProfile": "api",
+    "auditProfile": "light",
+    "updatedAt": "2026-03-31T00:00:00Z"
+  }
+]

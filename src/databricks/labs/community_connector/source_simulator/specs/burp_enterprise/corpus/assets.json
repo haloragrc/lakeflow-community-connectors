@@ -1,0 +1,18 @@
+[
+  {
+    "id": "site-001",
+    "name": "Public App",
+    "url": "https://app.simulator.example",
+    "environment": "production",
+    "status": "ACTIVE",
+    "updatedAt": "2026-04-01T10:00:00Z"
+  },
+  {
+    "id": "site-002",
+    "name": "Partner Portal",
+    "url": "https://partner.simulator.example",
+    "environment": "staging",
+    "status": "ACTIVE",
+    "updatedAt": "2026-04-02T10:00:00Z"
+  }
+]
