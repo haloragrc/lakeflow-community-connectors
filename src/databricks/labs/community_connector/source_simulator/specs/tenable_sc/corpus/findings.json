@@ -1,0 +1,22 @@
+[
+  {
+    "id": "f-101-38170",
+    "pluginID": 38170,
+    "severity": "4",
+    "state": "OPEN",
+    "assetID": 101,
+    "repositoryID": 1,
+    "firstSeen": "2026-01-09T01:00:00Z",
+    "lastSeen": "2026-01-11T01:00:00Z"
+  },
+  {
+    "id": "f-102-105213",
+    "pluginID": 105213,
+    "severity": "2",
+    "state": "FIXED",
+    "assetID": 102,
+    "repositoryID": 2,
+    "firstSeen": "2026-01-08T01:00:00Z",
+    "lastSeen": "2026-01-10T01:00:00Z"
+  }
+]

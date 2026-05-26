@@ -1,0 +1,12 @@
+[
+  {
+    "id": "u-1",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Alice"
+  },
+  {
+    "id": "sp-1",
+    "@odata.type": "#microsoft.graph.servicePrincipal",
+    "displayName": "CI Agent"
+  }
+]

@@ -1,0 +1,40 @@
+endpoints:
+  - path: /rest/asset
+    method: GET
+    corpus: assets
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: response.usable
+
+  - path: /rest/repository
+    method: GET
+    corpus: repositories
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: response.usable
+
+  - path: /rest/vuln
+    method: GET
+    corpus: findings
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: response.usable
+
+  - path: /rest/scan
+    method: GET
+    corpus: scans
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: response.usable
+
+  - path: /rest/scanResult
+    method: GET
+    corpus: scan_results
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: response.usable

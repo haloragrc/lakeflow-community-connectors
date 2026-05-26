@@ -1,0 +1,18 @@
+[
+  {
+    "id": "rol1",
+    "type": "ORG_ADMIN",
+    "label": "Org Administrator",
+    "status": "ACTIVE",
+    "assignmentType": "DIRECT",
+    "lastUpdated": "2026-01-09T00:00:00Z"
+  },
+  {
+    "id": "rol2",
+    "type": "APP_ADMIN",
+    "label": "App Administrator",
+    "status": "ACTIVE",
+    "assignmentType": "GROUP",
+    "lastUpdated": "2026-01-10T00:00:00Z"
+  }
+]

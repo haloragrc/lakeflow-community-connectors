@@ -1,0 +1,18 @@
+[
+  {
+    "id": "g-1",
+    "displayName": "Security Admins",
+    "mailNickname": "secadmins",
+    "mailEnabled": false,
+    "securityEnabled": true,
+    "createdDateTime": "2026-01-03T00:00:00Z"
+  },
+  {
+    "id": "g-2",
+    "displayName": "Developers",
+    "mailNickname": "devs",
+    "mailEnabled": false,
+    "securityEnabled": true,
+    "createdDateTime": "2026-01-04T00:00:00Z"
+  }
+]

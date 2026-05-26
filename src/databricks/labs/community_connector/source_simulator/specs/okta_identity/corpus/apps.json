@@ -1,0 +1,14 @@
+[
+  {
+    "id": "0oa1",
+    "label": "Salesforce",
+    "status": "ACTIVE",
+    "lastUpdated": "2026-01-10T02:00:00Z"
+  },
+  {
+    "id": "0oa2",
+    "label": "AWS IAM Identity Center",
+    "status": "ACTIVE",
+    "lastUpdated": "2026-01-11T02:00:00Z"
+  }
+]

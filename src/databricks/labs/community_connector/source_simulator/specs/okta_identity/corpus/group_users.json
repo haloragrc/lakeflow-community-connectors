@@ -1,0 +1,16 @@
+[
+  {
+    "id": "00u1",
+    "status": "ACTIVE",
+    "profile": {
+      "login": "alice@example.com"
+    }
+  },
+  {
+    "id": "00u2",
+    "status": "SUSPENDED",
+    "profile": {
+      "login": "bob@example.com"
+    }
+  }
+]

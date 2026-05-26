@@ -1,0 +1,42 @@
+endpoints:
+  - path: /api/v1/users
+    method: GET
+    corpus: users
+    response:
+      pagination_style: none
+
+  - path: /api/v1/groups
+    method: GET
+    corpus: groups
+    response:
+      pagination_style: none
+
+  - path: /api/v1/groups/{group_id}/users
+    method: GET
+    corpus: group_users
+    response:
+      pagination_style: none
+
+  - path: /api/v1/apps
+    method: GET
+    corpus: apps
+    response:
+      pagination_style: none
+
+  - path: /api/v1/apps/{app_id}/users
+    method: GET
+    corpus: app_users
+    response:
+      pagination_style: none
+
+  - path: /api/v1/iam/roles
+    method: GET
+    corpus: roles
+    response:
+      pagination_style: none
+
+  - path: /api/v1/users/{user_id}/factors
+    method: GET
+    corpus: factors
+    response:
+      pagination_style: none

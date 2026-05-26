@@ -1,0 +1,24 @@
+[
+  {
+    "id": 101,
+    "ip": "10.0.0.10",
+    "dnsName": "host-a.local",
+    "netbiosName": "HOSTA",
+    "repository": {
+      "id": 1,
+      "name": "Repo A"
+    },
+    "modifiedTime": "2026-01-10T00:00:00Z"
+  },
+  {
+    "id": 102,
+    "ip": "10.0.0.11",
+    "dnsName": "host-b.local",
+    "netbiosName": "HOSTB",
+    "repository": {
+      "id": 2,
+      "name": "Repo B"
+    },
+    "modifiedTime": "2026-01-11T00:00:00Z"
+  }
+]

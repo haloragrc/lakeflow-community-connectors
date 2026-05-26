@@ -1,0 +1,24 @@
+[
+  {
+    "id": "00u1",
+    "status": "ACTIVE",
+    "created": "2026-01-01T00:00:00Z",
+    "lastUpdated": "2026-01-10T00:00:00Z",
+    "profile": {
+      "login": "alice@example.com",
+      "email": "alice@example.com",
+      "displayName": "Alice"
+    }
+  },
+  {
+    "id": "00u2",
+    "status": "SUSPENDED",
+    "created": "2026-01-02T00:00:00Z",
+    "lastUpdated": "2026-01-11T00:00:00Z",
+    "profile": {
+      "login": "bob@example.com",
+      "email": "bob@example.com",
+      "displayName": "Bob"
+    }
+  }
+]

@@ -1,0 +1,22 @@
+display_name: Tenable Security Center
+connection:
+  parameters:
+    - name: access_key
+      type: string
+      required: true
+      secret: true
+      description: Tenable.sc API access key.
+    - name: secret_key
+      type: string
+      required: true
+      secret: true
+      description: Tenable.sc API secret key.
+    - name: base_url
+      type: string
+      required: false
+      description: Base URL for Tenable.sc API.
+    - name: timeout_seconds
+      type: string
+      required: false
+      description: HTTP timeout in seconds.
+external_options_allowlist: "start_date,cursor_after"

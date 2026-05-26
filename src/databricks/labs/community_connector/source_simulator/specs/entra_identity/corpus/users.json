@@ -1,0 +1,18 @@
+[
+  {
+    "id": "u-1",
+    "userPrincipalName": "alice@contoso.com",
+    "displayName": "Alice",
+    "mail": "alice@contoso.com",
+    "accountEnabled": true,
+    "createdDateTime": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "u-2",
+    "userPrincipalName": "bob@contoso.com",
+    "displayName": "Bob",
+    "mail": "bob@contoso.com",
+    "accountEnabled": false,
+    "createdDateTime": "2026-01-02T00:00:00Z"
+  }
+]

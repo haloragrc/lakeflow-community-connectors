@@ -1,0 +1,14 @@
+[
+  {
+    "id": "00u1",
+    "scope": "USER",
+    "status": "ACTIVE",
+    "lastUpdated": "2026-01-10T03:00:00Z"
+  },
+  {
+    "id": "00u2",
+    "scope": "GROUP",
+    "status": "PROVISIONED",
+    "lastUpdated": "2026-01-11T03:00:00Z"
+  }
+]

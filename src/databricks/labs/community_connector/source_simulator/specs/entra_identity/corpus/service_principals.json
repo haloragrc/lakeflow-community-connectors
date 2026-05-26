@@ -1,0 +1,18 @@
+[
+  {
+    "id": "sp-1",
+    "appId": "app-1",
+    "displayName": "CI Agent",
+    "appOwnerOrganizationId": "tenant-1",
+    "accountEnabled": true,
+    "createdDateTime": "2026-01-05T00:00:00Z"
+  },
+  {
+    "id": "sp-2",
+    "appId": "app-2",
+    "displayName": "Automation App",
+    "appOwnerOrganizationId": "tenant-1",
+    "accountEnabled": true,
+    "createdDateTime": "2026-01-06T00:00:00Z"
+  }
+]

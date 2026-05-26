@@ -1,0 +1,22 @@
+[
+  {
+    "id": "00g1",
+    "type": "OKTA_GROUP",
+    "created": "2026-01-01T00:00:00Z",
+    "lastUpdated": "2026-01-09T00:00:00Z",
+    "profile": {
+      "name": "Admins",
+      "description": "Admin group"
+    }
+  },
+  {
+    "id": "00g2",
+    "type": "OKTA_GROUP",
+    "created": "2026-01-02T00:00:00Z",
+    "lastUpdated": "2026-01-10T00:00:00Z",
+    "profile": {
+      "name": "Developers",
+      "description": "Dev group"
+    }
+  }
+]

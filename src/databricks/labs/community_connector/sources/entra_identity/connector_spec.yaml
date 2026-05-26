@@ -1,0 +1,17 @@
+display_name: Entra Identity
+connection:
+  parameters:
+    - name: access_token
+      type: string
+      required: true
+      secret: true
+      description: Microsoft Graph OAuth bearer token.
+    - name: base_url
+      type: string
+      required: false
+      description: Graph API base URL. Defaults to https://graph.microsoft.com.
+    - name: timeout_seconds
+      type: string
+      required: false
+      description: HTTP timeout seconds.
+external_options_allowlist: "$select,$filter,$top"

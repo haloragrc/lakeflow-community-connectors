@@ -1,0 +1,30 @@
+[
+  {
+    "id": 7001,
+    "name": "Weekly Scan",
+    "description": "internal",
+    "status": "Completed",
+    "repository": {
+      "id": 1
+    },
+    "owner": {
+      "username": "admin"
+    },
+    "createdTime": "2026-01-10T02:00:00Z",
+    "modifiedTime": "2026-01-10T03:00:00Z"
+  },
+  {
+    "id": 7002,
+    "name": "DMZ Scan",
+    "description": "external",
+    "status": "Completed",
+    "repository": {
+      "id": 2
+    },
+    "owner": {
+      "username": "ops"
+    },
+    "createdTime": "2026-01-11T02:00:00Z",
+    "modifiedTime": "2026-01-11T03:00:00Z"
+  }
+]

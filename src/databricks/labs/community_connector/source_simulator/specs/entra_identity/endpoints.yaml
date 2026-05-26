@@ -1,0 +1,48 @@
+endpoints:
+  - path: /v1.0/users
+    method: GET
+    corpus: users
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: value
+
+  - path: /v1.0/groups
+    method: GET
+    corpus: groups
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: value
+
+  - path: /v1.0/groups/{group_id}/members
+    method: GET
+    corpus: memberships
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: value
+
+  - path: /v1.0/servicePrincipals
+    method: GET
+    corpus: service_principals
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: value
+
+  - path: /v1.0/servicePrincipals/appRoleAssignedTo
+    method: GET
+    corpus: app_role_assignments
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: value
+
+  - path: /v1.0/directoryRoles
+    method: GET
+    corpus: directory_roles
+    response:
+      pagination_style: none
+      wrapper:
+        records_key: value

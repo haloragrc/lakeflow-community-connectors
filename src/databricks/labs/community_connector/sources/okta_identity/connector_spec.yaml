@@ -1,0 +1,17 @@
+display_name: Okta Identity
+connection:
+  parameters:
+    - name: api_token
+      type: string
+      required: true
+      secret: true
+      description: Okta API token for management APIs.
+    - name: base_url
+      type: string
+      required: false
+      description: Okta org URL, e.g. https://example.okta.com.
+    - name: timeout_seconds
+      type: string
+      required: false
+      description: HTTP timeout seconds.
+external_options_allowlist: "filter,search,after,limit"

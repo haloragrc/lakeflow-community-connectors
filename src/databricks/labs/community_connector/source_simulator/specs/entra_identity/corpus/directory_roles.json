@@ -1,0 +1,14 @@
+[
+  {
+    "id": "dr-1",
+    "displayName": "Global Administrator",
+    "description": "Tenant-wide admin role",
+    "roleTemplateId": "tmpl-1"
+  },
+  {
+    "id": "dr-2",
+    "displayName": "Security Reader",
+    "description": "Security read role",
+    "roleTemplateId": "tmpl-2"
+  }
+]

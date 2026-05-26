@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ara-1",
+    "principalId": "u-1",
+    "resourceId": "sp-1",
+    "appRoleId": "role-1",
+    "principalType": "User",
+    "createdDateTime": "2026-01-07T00:00:00Z"
+  },
+  {
+    "id": "ara-2",
+    "principalId": "g-1",
+    "resourceId": "sp-2",
+    "appRoleId": "role-2",
+    "principalType": "Group",
+    "createdDateTime": "2026-01-08T00:00:00Z"
+  }
+]
